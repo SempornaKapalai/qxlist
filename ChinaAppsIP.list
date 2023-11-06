@@ -12,14 +12,14 @@ DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 
 # douyin
-HOST-SUFFIX,amemv.com,ChinaAppsIP
-HOST-SUFFIX,douyincdn.com,ChinaAppsIP
-HOST-SUFFIX,douyinpic.com,ChinaAppsIP
-HOST-SUFFIX,douyinstatic.com,ChinaAppsIP
-HOST-SUFFIX,douyinvod.com,ChinaAppsIP
-HOST-SUFFIX,idouyinvod.com,ChinaAppsIP
-HOST-SUFFIX,ixigua.com,ChinaAppsIP
-HOST-SUFFIX,ixiguavideo.com,ChinaAppsIP
-HOST-SUFFIX,pstatp.com,ChinaAppsIP
-HOST-SUFFIX,snssdk.com,ChinaAppsIP
-HOST-SUFFIX,toutiao.com,ChinaAppsIP
+# HOST-SUFFIX,amemv.com,ChinaAppsIP
+# HOST-SUFFIX,douyincdn.com,ChinaAppsIP
+# HOST-SUFFIX,douyinpic.com,ChinaAppsIP
+# HOST-SUFFIX,douyinstatic.com,ChinaAppsIP
+# HOST-SUFFIX,douyinvod.com,ChinaAppsIP
+# HOST-SUFFIX,idouyinvod.com,ChinaAppsIP
+# HOST-SUFFIX,ixigua.com,ChinaAppsIP
+# HOST-SUFFIX,ixiguavideo.com,ChinaAppsIP
+# HOST-SUFFIX,pstatp.com,ChinaAppsIP
+# HOST-SUFFIX,snssdk.com,ChinaAppsIP
+# HOST-SUFFIX,toutiao.com,ChinaAppsIP
