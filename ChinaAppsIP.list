@@ -1,3 +1,12 @@
 # ChinaApps
+# xiaohongshu
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-HOST-SUFFIX,smzdm.com,ChinaAppsIP
+DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
+DOMAIN,as.xiaohongshu.com,ChinaAppsIP
+DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
+DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
+DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
+DOMAIN,www.xiaohongshu.com,ChinaAppsIP
+DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
+DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
+DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
