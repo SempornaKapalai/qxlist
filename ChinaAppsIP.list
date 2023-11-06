@@ -11,6 +11,17 @@ DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
 DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 
+# smzdm
+HOST-SUFFIX,smzdm.com,ChinaAppsIP
+DOMAIN,analytics-api.smzdm.com,ChinaAppsIP
+DOMAIN,eimg.smzdm.com,ChinaAppsIP
+DOMAIN,shence-import.smzdm.com,ChinaAppsIP
+DOMAIN,haojia-api.smzdm.com,ChinaAppsIP
+DOMAIN,s-api.smzdm.com,ChinaAppsIP
+DOMAIN,comment-api.smzdm.com,ChinaAppsIP
+DOMAIN,haojia-cdn.smzdm.com,ChinaAppsIP
+DOMAIN,article-cdn.smzdm.com,ChinaAppsIP
+
 # douyin
 #HOST-SUFFIX,amemv.com,ChinaAppsIP
 #HOST-SUFFIX,douyincdn.com,ChinaAppsIP
