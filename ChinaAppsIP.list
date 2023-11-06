@@ -21,6 +21,11 @@ DOMAIN,s-api.smzdm.com,ChinaAppsIP
 DOMAIN,comment-api.smzdm.com,ChinaAppsIP
 DOMAIN,haojia-cdn.smzdm.com,ChinaAppsIP
 DOMAIN,article-cdn.smzdm.com,ChinaAppsIP
+DOMAIN,user-api.smzdm.com,ChinaAppsIP
+DOMAIN,dingyue-api.smzdm.com,ChinaAppsIP
+DOMAIN,qneimg.smzdm.com,ChinaAppsIP
+DOMAIN,qny.smzdm.com,ChinaAppsIP
+DOMAIN,app-api.smzdm.com,ChinaAppsIP
 
 # douyin
 #HOST-SUFFIX,amemv.com,ChinaAppsIP
