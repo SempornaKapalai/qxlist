@@ -31,6 +31,7 @@ DOMAIN,sms.imagetasks.com,DIRECT
 # > Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
-
+# > MYIP
+DOMAIN,nuc11.tpddns.cn,DIRECT
 
 GEOIP,CN,DIRECT
