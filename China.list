@@ -33,5 +33,7 @@ DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
 # > MYIP
 DOMAIN,nuc11.tpddns.cn,DIRECT
+DOMAIN,jiangan.synology.me,DIRECT
+DOMAIN,nanhu.synology.me,DIRECT
 
 GEOIP,CN,DIRECT
