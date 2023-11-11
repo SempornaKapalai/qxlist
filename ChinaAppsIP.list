@@ -10,6 +10,9 @@ DOMAIN,www.xiaohongshu.com,ChinaAppsIP
 DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
 DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
+HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
+HOST-SUFFIX,xhscdn.com,ChinaAppsIP
+HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 
 # smzdm
 #HOST-SUFFIX,smzdm.com,ChinaAppsIP
