@@ -29,17 +29,17 @@ HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 #DOMAIN,qneimg.smzdm.com,ChinaAppsIP
 #DOMAIN,qny.smzdm.com,ChinaAppsIP
 #DOMAIN,app-api.smzdm.com,ChinaAppsIP
-HOST-SUFFIX,faxianpindao.com,ChinaAppsIP
-HOST-SUFFIX,quaolai.com,ChinaAppsIP
-HOST-SUFFIX,smzdm.com,ChinaAppsIP
-HOST-SUFFIX,smzdmimg.com,ChinaAppsIP
-HOST-SUFFIX,valueq-sea.com,ChinaAppsIP
-HOST-SUFFIX,wanwuzhinan.com,ChinaAppsIP
-HOST-SUFFIX,zdm.net,ChinaAppsIP
-HOST-SUFFIX,zdmimg.com,ChinaAppsIP
-HOST-SUFFIX,zhidemai.com,ChinaAppsIP
-HOST-SUFFIX,umeng.com,ChinaAppsIP
-HOST-SUFFIX,alicdn.com,ChinaAppsIP
+#HOST-SUFFIX,faxianpindao.com,ChinaAppsIP
+#HOST-SUFFIX,quaolai.com,ChinaAppsIP
+#HOST-SUFFIX,smzdm.com,ChinaAppsIP
+#HOST-SUFFIX,smzdmimg.com,ChinaAppsIP
+#HOST-SUFFIX,valueq-sea.com,ChinaAppsIP
+#HOST-SUFFIX,wanwuzhinan.com,ChinaAppsIP
+#HOST-SUFFIX,zdm.net,ChinaAppsIP
+#HOST-SUFFIX,zdmimg.com,ChinaAppsIP
+#HOST-SUFFIX,zhidemai.com,ChinaAppsIP
+#HOST-SUFFIX,umeng.com,ChinaAppsIP
+#HOST-SUFFIX,alicdn.com,ChinaAppsIP
 
 # douyin
 #HOST-SUFFIX,amemv.com,ChinaAppsIP
