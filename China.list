@@ -12,8 +12,10 @@ DOMAIN,imap-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 # > Azure
 DOMAIN,portal.azure.cn,DIRECT
-HOST-KEYWORD,rdweb.wvd.azure.cn,DIRECT
-HOST-KEYWORD,azure.cn,DIRECT
+DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
+DOMAIN-KEYWORD,azure.cn,DIRECT
+DOMAIN-SUFFIX,rdweb.wvd.azure.cn,DIRECT
+DOMAIN-SUFFIX,azure.cn,DIRECT
 # > Windows Server Update Services
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
 DOMAIN-SUFFIX,update.microsoft.com,DIRECT
