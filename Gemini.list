@@ -1,13 +1,13 @@
 # NAME: BardAI
-HOST,ai.google.dev,BardAI
-HOST,alkalimakersuite-pa.clients6.google.com,BardAI
-HOST,generativelanguage.googleapis.com,BardAI
-HOST,makersuite.google.com,BardAI
-HOST-SUFFIX,bard.google.com,BardAI
-HOST-SUFFIX,deepmind.com,BardAI
-HOST-SUFFIX,deepmind.google,BardAI
-HOST-SUFFIX,generativeai.google,BardAI
-HOST-SUFFIX,gemini.google.com,BardAI
+HOST,ai.google.dev,Gemini
+HOST,alkalimakersuite-pa.clients6.google.com,Gemini
+HOST,generativelanguage.googleapis.com,Gemini
+HOST,makersuite.google.com,Gemini
+HOST-SUFFIX,bard.google.com,Gemini
+HOST-SUFFIX,deepmind.com,Gemini
+HOST-SUFFIX,deepmind.google,Gemini
+HOST-SUFFIX,generativeai.google,Gemini
+HOST-SUFFIX,gemini.google.com,Gemini
 
 # NAME: Gemini
 # AUTHOR: blackmatrix7
