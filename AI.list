@@ -8,3 +8,8 @@ HOST-SUFFIX,deepmind.com,BardAI
 HOST-SUFFIX,deepmind.google,BardAI
 HOST-SUFFIX,generativeai.google,BardAI
 HOST-SUFFIX,gemini.google.com,BardAI
+
+# NAME: Claude
+HOST,cdn.usefathom.com,Claude
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,claude.ai,Claude
