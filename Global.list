@@ -501,3 +501,5 @@ HOST-SUFFIX,discordsays.com,PROXY
 HOST-SUFFIX,discordstatus.com,PROXY
 HOST-SUFFIX,hammerandchisel.ssl.zendesk.com,PROXY
 HOST-SUFFIX,watchanimeattheoffice.com,PROXY
+# > Upwork
+HOST-SUFFIX,upwork.com,PROXY
