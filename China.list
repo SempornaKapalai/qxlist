@@ -43,5 +43,8 @@ DOMAIN,jiangan.synology.me,DIRECT
 DOMAIN,nanhu.synology.me,DIRECT
 # > Others
 DOMAIN,zwfw.hubei.gov.cn,DIRECT
+# > Government
+DOMAIN-SUFFIX,zwfw.hubei.gov.cn,DIRECT
+
 
 GEOIP,CN,DIRECT
