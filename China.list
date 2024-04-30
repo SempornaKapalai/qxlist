@@ -45,6 +45,8 @@ DOMAIN,nanhu.synology.me,DIRECT
 DOMAIN,zwfw.hubei.gov.cn,DIRECT
 # > Government
 DOMAIN-SUFFIX,zwfw.hubei.gov.cn,DIRECT
+DOMAIN-SUFFIX,gov.cn,DIRECT
+
 
 
 GEOIP,CN,DIRECT
