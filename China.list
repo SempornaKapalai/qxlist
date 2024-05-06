@@ -10,6 +10,7 @@ DOMAIN,smtp-mail.outlook.com,DIRECT
 DOMAIN,imap-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 DOMAIN-SUFFIX,msn.com,DIRECT
+DOMAIN-SUFFIX,live.com,DIRECT
 # > Azure
 DOMAIN,portal.azure.cn,DIRECT
 DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
