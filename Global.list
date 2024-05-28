@@ -528,3 +528,5 @@ HOST-SUFFIX,hammerandchisel.ssl.zendesk.com,PROXY
 HOST-SUFFIX,watchanimeattheoffice.com,PROXY
 # > Upwork
 HOST-SUFFIX,upwork.com,PROXY
+# > Coze
+HOST-SUFFIX,coze.com,PROXY
