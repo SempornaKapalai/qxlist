@@ -18,7 +18,7 @@ DOMAIN-KEYWORD,azure.cn,DIRECT
 DOMAIN-SUFFIX,rdweb.wvd.azure.cn,DIRECT
 DOMAIN-SUFFIX,azure.cn,DIRECT
 DOMAIN-SUFFIX,microsoftpersonalcontent.com,DIRECT
-Host,159.27.209.182,DIRECT
+IP-CIDR,159.27.209.0/24,DIRECT
 # > Windows Server Update Services
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
 DOMAIN-SUFFIX,update.microsoft.com,DIRECT
