@@ -11,6 +11,9 @@ DOMAIN,imap-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 DOMAIN-SUFFIX,msn.com,DIRECT
 DOMAIN-SUFFIX,live.com,DIRECT
+# > Teams
+DOMAIN-SUFFIX,skype.com,DIRECT
+DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
 # > Azure
 DOMAIN,portal.azure.cn,DIRECT
 DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
@@ -18,7 +21,6 @@ DOMAIN-KEYWORD,azure.cn,DIRECT
 DOMAIN-SUFFIX,rdweb.wvd.azure.cn,DIRECT
 DOMAIN-SUFFIX,azure.cn,DIRECT
 DOMAIN-SUFFIX,microsoftpersonalcontent.com,DIRECT
-DOMAIN-SUFFIX,skype.com,DIRECT
 # > Azure-AD
 IP-CIDR,159.27.209.0/24,DIRECT
 IP-CIDR,104.209.141.0/24,DIRECT
