@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,live.com,DIRECT
 # > Teams
 DOMAIN-SUFFIX,skype.com,DIRECT
 DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
+DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+DOMAIN-SUFFIX,office.com,DIRECT
 # > Azure
 DOMAIN,portal.azure.cn,DIRECT
 DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
