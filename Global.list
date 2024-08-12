@@ -327,15 +327,6 @@ DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,PROXY
 DOMAIN,github.global.ssl.fastly.net,PROXY
 DOMAIN,nytimes.map.fastly.net,PROXY
-# > Line
-DOMAIN-SUFFIX,line.me,PROXY
-DOMAIN-SUFFIX,line-apps.com,PROXY
-DOMAIN-SUFFIX,line-scdn.net,PROXY
-DOMAIN-SUFFIX,naver.jp,PROXY
-IP-CIDR,103.2.30.0/23,PROXY
-IP-CIDR,125.209.208.0/20,PROXY
-IP-CIDR,147.92.128.0/17,PROXY
-IP-CIDR,203.104.144.0/21,PROXY
 # > Meta
 DOMAIN-SUFFIX,accountkit.com,PROXY
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
