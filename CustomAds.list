@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,mpush-api.aliyun.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
-#DOMAIN-SUFFIX,pinduoduo.com,REJECT
+DOMAIN-SUFFIX,pinduoduo.com,REJECT
 DOMAIN-SUFFIX,snssdk.com,REJECT
 DOMAIN-SUFFIX,dm.toutiao.com,REJECT
 DOMAIN-SUFFIX,adsmind.ugdtimg.com,REJECT
