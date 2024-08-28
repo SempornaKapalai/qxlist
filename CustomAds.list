@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,v.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,bayescom.com,REJECT
 DOMAIN-SUFFIX,bayescom.cn,REJECT
 DOMAIN-SUFFIX,hectorstatic.baidu.com,REJECT
+DOMAIN-SUFFIX,ad.baidu.com,REJECT
+DOMAIN-SUFFIX,staticsns.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,mpush-api.aliyun.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
