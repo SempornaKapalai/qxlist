@@ -14,6 +14,7 @@ DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 HOST-SUFFIX,xhscdn.com,ChinaAppsIP
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
+Host,119.29.29.98,ChinaAppsIP
 
 # smzdm
 #HOST-SUFFIX,smzdm.com,ChinaAppsIP
