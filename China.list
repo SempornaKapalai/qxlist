@@ -23,6 +23,10 @@ DOMAIN-SUFFIX,skype.com,DIRECT
 DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
 DOMAIN-SUFFIX,microsoftonline.com,DIRECT
 DOMAIN-SUFFIX,office.com,DIRECT
+HOST,teams.events.data.microsoft.com,DIRECT
+HOST-SUFFIX,teams.cdn.live.net,DIRECT
+HOST-SUFFIX,teams.live.com,DIRECT
+HOST-SUFFIX,teams.microsoft.com,DIRECT
 # > Azure
 #DOMAIN,portal.azure.cn,DIRECT
 DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
