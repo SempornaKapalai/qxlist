@@ -11,6 +11,10 @@ DOMAIN,imap-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 DOMAIN-SUFFIX,msn.com,DIRECT
 DOMAIN-SUFFIX,live.com,DIRECT
+HOST-SUFFIX,outlook.cn,DIRECT
+HOST-SUFFIX,outlook.com,DIRECT
+HOST-SUFFIX,outlookgroups.ms,DIRECT
+HOST-SUFFIX,outlookmobile.com,DIRECT
 # > Teams
 DOMAIN-SUFFIX,skype.com,DIRECT
 DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
