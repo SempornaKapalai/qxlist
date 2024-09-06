@@ -10,6 +10,9 @@ DOMAIN,smtp-mail.outlook.com,DIRECT
 DOMAIN,imap-mail.outlook.com,DIRECT
 DOMAIN,smtp.office365.com,DIRECT
 DOMAIN-SUFFIX,msn.com,DIRECT
+HOST-SUFFIX,msn.cn,DIRECT
+HOST-SUFFIX,msn.com.cn,DIRECT
+HOST-SUFFIX,msn.net,DIRECT
 DOMAIN-SUFFIX,live.com,DIRECT
 HOST-SUFFIX,outlook.cn,DIRECT
 HOST-SUFFIX,outlook.com,DIRECT
