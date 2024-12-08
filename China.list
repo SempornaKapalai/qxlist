@@ -69,6 +69,7 @@ DOMAIN,zwfw.hubei.gov.cn,DIRECT
 DOMAIN-SUFFIX,zwfw.hubei.gov.cn,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
 Host,59.175.218.201,DIRECT
-
+# > Plex
+DOMAIN,v4.plex.tv,DIRECT
 
 GEOIP,CN,DIRECT
