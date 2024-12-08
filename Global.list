@@ -519,3 +519,5 @@ HOST-SUFFIX,watchanimeattheoffice.com,PROXY
 HOST-SUFFIX,upwork.com,PROXY
 # > Coze
 HOST-SUFFIX,coze.com,PROXY
+# > Plex
+DOMAIN,plex.tv,PROXY
