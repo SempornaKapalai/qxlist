@@ -500,4 +500,4 @@ HOST-SUFFIX,coze.com,PROXY
 # > Plex
 DOMAIN,plex.tv,PROXY
 # > Cityline
-DOMAIN,cityline.com,PROXY
+HOST-SUFFIX,cityline.com,PROXY
