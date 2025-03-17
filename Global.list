@@ -499,3 +499,5 @@ HOST-SUFFIX,upwork.com,PROXY
 HOST-SUFFIX,coze.com,PROXY
 # > Plex
 DOMAIN,plex.tv,PROXY
+# > Cityline
+DOMAIN,cityline.com,PROXY
