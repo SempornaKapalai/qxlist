@@ -71,5 +71,7 @@ DOMAIN-SUFFIX,gov.cn,DIRECT
 Host,59.175.218.201,DIRECT
 # > Plex
 DOMAIN,v4.plex.tv,DIRECT
+# > Oyunfor
+DOMAIN-SUFFIX,oyunfor.com,DIRECT
 
 GEOIP,CN,DIRECT
