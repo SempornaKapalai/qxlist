@@ -501,3 +501,5 @@ HOST-SUFFIX,coze.com,PROXY
 DOMAIN,plex.tv,PROXY
 # > Cityline
 HOST-SUFFIX,cityline.com,PROXY
+# > Loop
+HOST-SUFFIX,loop.cloud.microsoft,PROXY
