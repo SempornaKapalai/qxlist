@@ -18,6 +18,20 @@ HOST-SUFFIX,outlook.cn,DIRECT
 HOST-SUFFIX,outlook.com,DIRECT
 HOST-SUFFIX,outlookgroups.ms,DIRECT
 HOST-SUFFIX,outlookmobile.com,DIRECT
+# > Microsoft
+HOST-KEYWORD,microsoft,DIRECT
+HOST-KEYWORD,windowsupdate,DIRECT
+HOST-KEYWORD,officecdn,DIRECT
+HOST-SUFFIX,microsoft.com,DIRECT
+HOST-SUFFIX,live.com,DIRECT
+HOST-SUFFIX,outlook.com,DIRECT
+HOST-SUFFIX,msftncsi.com,DIRECT
+HOST-SUFFIX,windows.com,DIRECT
+HOST-SUFFIX,office.com,DIRECT
+HOST-SUFFIX,onenote.com,DIRECT
+HOST-SUFFIX,sharepoint.com,DIRECT
+HOST-SUFFIX,skype.com,DIRECT
+HOST-SUFFIX,xboxlive.com,DIRECT
 # > Teams
 DOMAIN-SUFFIX,skype.com,DIRECT
 DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
