@@ -1,0 +1,7 @@
+host, speedtest.net, Speedtest
+host-suffix, speedtestcustom.com, Speedtest
+host-suffix, speedtest.net, Speedtest
+host-keyword, speedtest, Speedtest
+host-suffix, ooklaserver.net, Speedtest
+host-suffix, ookla.com, Speedtest
+geoip, cn, DIRECT
