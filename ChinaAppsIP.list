@@ -25,31 +25,17 @@ IP-CIDR,119.29.29.98/32,ChinaAppsIP
 #ip-cidr,119.29.29.98/32,ChinaAppsIP
 
 # smzdm
-#HOST-SUFFIX,smzdm.com,ChinaAppsIP
-#DOMAIN,analytics-api.smzdm.com,ChinaAppsIP
-#DOMAIN,eimg.smzdm.com,ChinaAppsIP
-#DOMAIN,shence-import.smzdm.com,ChinaAppsIP
-#DOMAIN,haojia-api.smzdm.com,ChinaAppsIP
-#DOMAIN,s-api.smzdm.com,ChinaAppsIP
-#DOMAIN,comment-api.smzdm.com,ChinaAppsIP
-#DOMAIN,haojia-cdn.smzdm.com,ChinaAppsIP
-#DOMAIN,article-cdn.smzdm.com,ChinaAppsIP
-#DOMAIN,user-api.smzdm.com,ChinaAppsIP
-#DOMAIN,dingyue-api.smzdm.com,ChinaAppsIP
-#DOMAIN,qneimg.smzdm.com,ChinaAppsIP
-#DOMAIN,qny.smzdm.com,ChinaAppsIP
-#DOMAIN,app-api.smzdm.com,ChinaAppsIP
-#HOST-SUFFIX,faxianpindao.com,ChinaAppsIP
-#HOST-SUFFIX,quaolai.com,ChinaAppsIP
-#HOST-SUFFIX,smzdm.com,ChinaAppsIP
-#HOST-SUFFIX,smzdmimg.com,ChinaAppsIP
-#HOST-SUFFIX,valueq-sea.com,ChinaAppsIP
-#HOST-SUFFIX,wanwuzhinan.com,ChinaAppsIP
-#HOST-SUFFIX,zdm.net,ChinaAppsIP
-#HOST-SUFFIX,zdmimg.com,ChinaAppsIP
-#HOST-SUFFIX,zhidemai.com,ChinaAppsIP
-#HOST-SUFFIX,umeng.com,ChinaAppsIP
-#HOST-SUFFIX,alicdn.com,ChinaAppsIP
+HOST-SUFFIX,faxianpindao.com,ChinaAppsIP
+HOST-SUFFIX,quaolai.com,ChinaAppsIP
+HOST-SUFFIX,smzdm.com,ChinaAppsIP
+HOST-SUFFIX,smzdmimg.com,ChinaAppsIP
+HOST-SUFFIX,valueq-sea.com,ChinaAppsIP
+HOST-SUFFIX,wanwuzhinan.com,ChinaAppsIP
+HOST-SUFFIX,zdm.net,ChinaAppsIP
+HOST-SUFFIX,zdmimg.com,ChinaAppsIP
+HOST-SUFFIX,zhidemai.com,ChinaAppsIP
+HOST-SUFFIX,umeng.com,ChinaAppsIP
+HOST-SUFFIX,alicdn.com,ChinaAppsIP
 
 # douyin
 #HOST-SUFFIX,amemv.com,ChinaAppsIP
