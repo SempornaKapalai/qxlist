@@ -1,21 +1,28 @@
 # ChinaApps
 # xiaohongshu
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
-DOMAIN,as.xiaohongshu.com,ChinaAppsIP
-DOMAIN,gslb.xiaohongshu.com,ChinaAppsIP
-DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
-DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
-DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
-DOMAIN,www.xiaohongshu.com,ChinaAppsIP
-DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
-DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
-DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
-HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 HOST-SUFFIX,xhscdn.com,ChinaAppsIP
-HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
+HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
-ip-cidr,119.29.29.98/32,ChinaAppsIP
+HOST-SUFFIX,xhscdn.net,ChinaAppsIP
+IP-CIDR,119.29.29.98/32,ChinaAppsIP
+
+#HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
+#DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,as.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,gslb.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,www.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
+#DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
+#HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
+#HOST-SUFFIX,xhscdn.com,ChinaAppsIP
+#HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
+#HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
+#ip-cidr,119.29.29.98/32,ChinaAppsIP
 
 # smzdm
 #HOST-SUFFIX,smzdm.com,ChinaAppsIP
