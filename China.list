@@ -87,3 +87,35 @@ Host,59.175.218.201,DIRECT
 DOMAIN,v4.plex.tv,DIRECT
 # > Oyunfor
 DOMAIN-SUFFIX,oyunfor.com,DIRECT
+# > Speedtest 全部直连
+HOST,speed.dler.io,DIRECT
+HOST-SUFFIX,fast.com,DIRECT
+HOST-SUFFIX,ooklaserver.net,DIRECT
+HOST-SUFFIX,speed.cloudflare.com,DIRECT
+HOST-SUFFIX,speed.dler.io,DIRECT
+HOST-KEYWORD,speedtest,DIRECT
+USER-AGENT,SpeedTest*,DIRECT
+# Fast.com
+HOST-SUFFIX,fast.com,DIRECT
+# Ookla Speedtest
+HOST-SUFFIX,speedtest.net,DIRECT
+HOST-SUFFIX,ooklaserver.net,DIRECT
+HOST-KEYWORD,speedtest,DIRECT
+USER-AGENT,SpeedTest*,DIRECT
+# Cloudflare
+HOST-SUFFIX,speed.cloudflare.com,DIRECT
+# dler.io 测速
+HOST-SUFFIX,speed.dler.io,DIRECT
+HOST,speed.dler.io,DIRECT
+# 中国电信测速
+HOST-SUFFIX,189.cn,DIRECT
+HOST-SUFFIX,chinatelecomspeed.com,DIRECT
+# 中国联通测速
+HOST-SUFFIX,10010.com,DIRECT
+HOST-SUFFIX,unicomspeedtest.com,DIRECT
+# 中国移动测速
+HOST-SUFFIX,10086.cn,DIRECT
+HOST-SUFFIX,chinamobiletest.com,DIRECT
+# 其他常见测速平台、中国科大测速、东北大学测速
+HOST-SUFFIX,test.ustc.edu.cn,DIRECT
+HOST-SUFFIX,speed.neu.edu.cn,DIRECT
