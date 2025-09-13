@@ -119,3 +119,5 @@ HOST-SUFFIX,chinamobiletest.com,DIRECT
 # 其他常见测速平台、中国科大测速、东北大学测速
 HOST-SUFFIX,test.ustc.edu.cn,DIRECT
 HOST-SUFFIX,speed.neu.edu.cn,DIRECT
+# Zerotier
+IP-CIDR,192.168.193.0/24,DIRECT
