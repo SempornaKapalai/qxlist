@@ -39,3 +39,9 @@ HOST,pgdt.gtimg.cn,REJECT
 HOST,splashqqlive.gtimg.com,REJECT
 HOST,btrace.qq.com,REJECT
 HOST,vv.video.qq.com,REJECT
+# 小红书开屏广告及行为追踪
+HOST,ads-img-qc.xhscdn.com,REJECT
+HOST,ads-video-qc.xhscdn.com,REJECT
+HOST,t-ads.xiaohongshu.com,REJECT
+HOST,galaxy.xiaohongshu.com,REJECT
+HOST,wevent.xiaohongshu.com,REJECT
