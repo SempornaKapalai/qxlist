@@ -33,3 +33,9 @@ HOST,mobads-logs.baidu.com,REJECT
 HOST,amdc.m.taobao.com,REJECT
 HOST-KEYWORD,amdc.m.taobao,REJECT
 HOST-SUFFIX,amdc.m.taobao.com,REJECT
+# 腾讯系通用广告策略
+HOST,adsmind.gdtimg.com,REJECT
+HOST,pgdt.gtimg.cn,REJECT
+HOST,splashqqlive.gtimg.com,REJECT
+HOST,btrace.qq.com,REJECT
+HOST,vv.video.qq.com,REJECT
