@@ -1,6 +1,6 @@
-# --- 如下规则是Gemini生成的规则 ---
-
-# --- 1. 阿里系 (闲鱼/淘宝/支付宝/优酷) ---
+# ==========================================================
+# [1] 阿里系 (闲鱼/淘宝/支付宝/高德/优酷)
+# ==========================================================
 # 核心调度与暗道封锁
 HOST-KEYWORD, amdc.m.taobao, REJECT
 # 广告追踪与配置下发
@@ -8,8 +8,17 @@ HOST, adashbc.ut.taobao.com, REJECT
 HOST, guide-acs.m.taobao.com, REJECT
 HOST, wdp.m.taobao.com, REJECT
 HOST-SUFFIX, ut.taobao.com, REJECT
+# 高德地图专用
+HOST, adash.amap.com, REJECT
+HOST, amap-ad.oss-cn-hangzhou.aliyuncs.com, REJECT
+HOST, m5.amap.com, REJECT
+HOST, m5-activity.amap.com, REJECT
+HOST, logs.amap.com, REJECT
+HOST, dualstack-logs.amap.com, REJECT
 
-# --- 2. 百度与百度网盘 ---
+# ==========================================================
+# [2] 百度系 (手百/网盘/贴吧)
+# ==========================================================
 # 网盘开屏及配置
 HOST, panic.baidu.com, REJECT
 HOST, netdisk-api.baidu.com, REJECT
@@ -22,51 +31,89 @@ HOST-SUFFIX, ad.baidu.com, REJECT
 HOST-SUFFIX, hectorstatic.baidu.com, REJECT
 # 百度云存储广告位
 HOST-KEYWORD, bcebos.com, REJECT
-# 百度系新增补丁
+# 百度顽固广告补丁
 HOST-SUFFIX, baidustatic.com, REJECT
 HOST-SUFFIX, bdstatic.com, REJECT
 HOST, dns.api.fe.baidu.com, REJECT
 HOST, nsp-api.baidu.com, REJECT
 
-# --- 3. 腾讯系 (视频/新闻/QQ) ---
-# 广点通及视频开屏
+# ==========================================================
+# [3] 腾讯系 (视频/新闻/QQ/音乐)
+# ==========================================================
 HOST, adsmind.gdtimg.com, REJECT
 HOST, pgdt.gtimg.cn, REJECT
 HOST, splashqqlive.gtimg.com, REJECT
 HOST, btrace.qq.com, REJECT
 HOST, vv.video.qq.com, REJECT
-# 腾讯广告 SDK 补充
 HOST-SUFFIX, e.qq.com, REJECT
 HOST-SUFFIX, sdk.e.qq.com, REJECT
 HOST-SUFFIX, v.gdt.qq.com, REJECT
 HOST-SUFFIX, adsmind.ugdtimg.com, REJECT
 
-# --- 4. 字节跳动 (穿山甲广告 SDK - 覆盖 80% App 开屏) ---
+# ==========================================================
+# [4] 字节跳动 (抖音/头条/穿山甲 SDK)
+# ==========================================================
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pglstatp-toutiao.com, REJECT
 HOST-SUFFIX, snssdk.com, REJECT
 HOST-SUFFIX, dm.toutiao.com, REJECT
 HOST-SUFFIX, ctobsnssdk.com, REJECT
+# 抖音专用补丁
+HOST, ad.doubleclick.net, REJECT
+HOST, adapi.snssdk.com, REJECT
+HOST, adsdk.snssdk.com, REJECT
+HOST, ads.pstatp.com, REJECT
+HOST, mon.pstatp.com, REJECT
+HOST, mcs.snssdk.com, REJECT
+HOST, log.snssdk.com, REJECT
 
-# --- 5. 小红书 ---
+# ==========================================================
+# [5] 电商/旅行/生活 (京东/拼多多/美团/携程)
+# ==========================================================
+# 京东
+HOST, dsp-x.jd.com, REJECT
+HOST, xlog.jd.com, REJECT
+HOST, janapi.jd.com, REJECT
+# 拼多多
+HOST-SUFFIX, pinduoduo.com, REJECT-DICT
+HOST, titan.pinduoduo.com, REJECT
+HOST, amdc.pinduoduo.com, REJECT
+# 美团
+HOST, hdt.meituan.com, REJECT
+HOST, ad.meituan.com, REJECT
+HOST, mapilocator.meituan.com, REJECT
+HOST, d.meituan.net, REJECT
+HOST, logs.meituan.net, REJECT
+HOST, report.meituan.net, REJECT
+HOST, wreport.meituan.net, REJECT
+HOST, r.meituan.net, REJECT
+HOST, api.p.meituan.com, REJECT
+# 携程
+HOST, adview.ctrip.com, REJECT
+HOST, telemetry.ctrip.com, REJECT
+HOST, ad.ctrip.com, REJECT
+HOST, x.ctrip.com, REJECT
+
+# ==========================================================
+# [6] 影音社交 (小红书/哔哩哔哩)
+# ==========================================================
+# 小红书
 HOST, ads-img-qc.xhscdn.com, REJECT
 HOST, ads-video-qc.xhscdn.com, REJECT
 HOST, t-ads.xiaohongshu.com, REJECT
 HOST, galaxy.xiaohongshu.com, REJECT
 HOST, wevent.xiaohongshu.com, REJECT
+# 哔哩哔哩
+HOST, mall.bilibili.com, REJECT
+HOST, passport.bilibili.com, REJECT-DICT
+HOST, data.bilibili.com, REJECT
+HOST, analytics.bilibili.com, REJECT
+HOST, log-upload.bilibili.com, REJECT
+HOST, ad.bilibili.com, REJECT
 
-# --- 6. 京东 ---
-HOST, dsp-x.jd.com, REJECT
-HOST, xlog.jd.com, REJECT
-HOST, janapi.jd.com, REJECT
-
-# --- 7. 拼多多 ---
-# 采用字典拦截模式提高稳定性
-HOST-SUFFIX, pinduoduo.com, REJECT-DICT
-HOST, titan.pinduoduo.com, REJECT
-HOST, amdc.pinduoduo.com, REJECT
-
-# --- 8. 隐私追踪与第三方 SDK (通用) ---
+# ==========================================================
+# [7] 隐私追踪与第三方 SDK (通用型)
+# ==========================================================
 HOST-KEYWORD, bayescom, REJECT
 HOST-SUFFIX, bayescom.com, REJECT
 HOST-SUFFIX, bayescom.cn, REJECT
@@ -74,3 +121,4 @@ HOST-SUFFIX, umeng.com, REJECT
 HOST-SUFFIX, umengcloud.com, REJECT
 HOST-SUFFIX, ulogs.umeng.com, REJECT
 HOST-SUFFIX, log.umsns.com, REJECT
+# ==========================================================
