@@ -21,9 +21,14 @@ DOMAIN-SUFFIX,dm.toutiao.com,REJECT
 DOMAIN-SUFFIX,adsmind.ugdtimg.com,REJECT
 DOMAIN-SUFFIX,qlogo.cn,REJECT
 DOMAIN-SUFFIX,log.umsns.com,REJECT
-#百度开屏广告
+# 百度网盘开屏与广告配置
 DOMAIN-KEYWORD,bcebos.com,REJECT
 DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
+HOST,panic.baidu.com,REJECT
+HOST,netdisk-api.baidu.com,REJECT
+HOST,ad.netdisk.baidu.com,REJECT
+HOST,mobads.baidu.com,REJECT
+HOST,mobads-logs.baidu.com,REJECT
 #阿里开屏广告
 HOST,amdc.m.taobao.com,REJECT
 HOST-KEYWORD,amdc.m.taobao,REJECT
