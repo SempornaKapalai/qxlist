@@ -26,3 +26,5 @@ DOMAIN-KEYWORD,bcebos.com,REJECT
 DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
 #阿里开屏广告
 HOST,amdc.m.taobao.com,REJECT
+HOST-KEYWORD,amdc.m.taobao,REJECT
+HOST-SUFFIX,amdc.m.taobao.com,REJECT
