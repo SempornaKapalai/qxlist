@@ -1,3 +1,5 @@
+# --- 如下规则是Gemini生成的规则 ---
+
 # --- 1. 阿里系 (闲鱼/淘宝/支付宝/优酷) ---
 # 核心调度与暗道封锁
 HOST-KEYWORD, amdc.m.taobao, REJECT
