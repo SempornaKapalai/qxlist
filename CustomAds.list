@@ -29,10 +29,11 @@ HOST,netdisk-api.baidu.com,REJECT
 HOST,ad.netdisk.baidu.com,REJECT
 HOST,mobads.baidu.com,REJECT
 HOST,mobads-logs.baidu.com,REJECT
-#阿里开屏广告
-HOST,amdc.m.taobao.com,REJECT
+#阿里开屏通用广告策略
 HOST-KEYWORD,amdc.m.taobao,REJECT
-HOST-SUFFIX,amdc.m.taobao.com,REJECT
+HOST,adashbc.ut.taobao.com,REJECT
+HOST,guide-acs.m.taobao.com,REJECT
+HOST,wdp.m.taobao.com,REJECT
 # 腾讯系通用广告策略
 HOST,adsmind.gdtimg.com,REJECT
 HOST,pgdt.gtimg.cn,REJECT
