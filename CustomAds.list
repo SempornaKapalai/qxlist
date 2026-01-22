@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,log.umsns.com,REJECT
 #百度开屏广告
 DOMAIN-KEYWORD,bcebos.com,REJECT
 DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
+#阿里开屏广告
+host, amdc.m.taobao.com,REJECT
