@@ -20,6 +20,11 @@ HOST-SUFFIX, ad.baidu.com, REJECT
 HOST-SUFFIX, hectorstatic.baidu.com, REJECT
 # 百度云存储广告位
 HOST-KEYWORD, bcebos.com, REJECT
+# 百度系新增补丁
+HOST-SUFFIX, baidustatic.com, REJECT
+HOST-SUFFIX, bdstatic.com, REJECT
+HOST, dns.api.fe.baidu.com, REJECT
+HOST, nsp-api.baidu.com, REJECT
 
 # --- 3. 腾讯系 (视频/新闻/QQ) ---
 # 广点通及视频开屏
