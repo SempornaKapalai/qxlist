@@ -45,3 +45,12 @@ HOST,ads-video-qc.xhscdn.com,REJECT
 HOST,t-ads.xiaohongshu.com,REJECT
 HOST,galaxy.xiaohongshu.com,REJECT
 HOST,wevent.xiaohongshu.com,REJECT
+# 京东开屏与行为追踪
+HOST,dsp-x.jd.com,REJECT
+HOST,xlog.jd.com,REJECT
+HOST,janapi.jd.com,REJECT
+# 拼多多开屏与广告下发
+HOST-SUFFIX,pinduoduo.com,REJECT-DICT
+# 注意：拼多多通常直接封锁广告接口会比域名拦截更有效，以下是常用调度域名
+HOST,titan.pinduoduo.com,REJECT
+HOST,amdc.pinduoduo.com,REJECT
