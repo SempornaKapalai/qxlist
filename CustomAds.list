@@ -1,5 +1,5 @@
 # ==========================================================
-# [1] 阿里系 (闲鱼/淘宝/支付宝/高德/优酷)
+# [1] 阿里系 (闲鱼/淘宝/支付宝/优酷)
 # ==========================================================
 # 核心调度与暗道封锁
 HOST-KEYWORD, amdc.m.taobao, REJECT
@@ -8,13 +8,6 @@ HOST, adashbc.ut.taobao.com, REJECT
 HOST, guide-acs.m.taobao.com, REJECT
 HOST, wdp.m.taobao.com, REJECT
 HOST-SUFFIX, ut.taobao.com, REJECT
-# 高德地图专用
-HOST, adash.amap.com, REJECT
-HOST, amap-ad.oss-cn-hangzhou.aliyuncs.com, REJECT
-HOST, m5.amap.com, REJECT
-HOST, m5-activity.amap.com, REJECT
-HOST, logs.amap.com, REJECT
-HOST, dualstack-logs.amap.com, REJECT
 
 # ==========================================================
 # [2] 百度系 (手百/网盘/贴吧)
