@@ -2,7 +2,7 @@
 # [1] 阿里系 (闲鱼/淘宝/支付宝/优酷)
 # ==========================================================
 # 核心调度：将 REJECT 改为 DIRECT（直连），确保图片分发正常
-HOST-KEYWORD, amdc.m.taobao, DIRECT
+#HOST-KEYWORD, amdc.m.taobao, DIRECT
 
 # 广告追踪：保留这几条，它们只管广告，不影响图片
 HOST, adashbc.ut.taobao.com, REJECT
@@ -12,6 +12,13 @@ HOST, wdp.m.taobao.com, REJECT
 # 关键修正：将 ut.taobao.com 改为 DIRECT
 # 如果这一条是 REJECT，淘宝详情页的评价图片和部分主图会转圈圈
 HOST-SUFFIX, ut.taobao.com, DIRECT
+
+# --- 闲鱼/阿里核心去广告补丁 ---
+# 拦截阿里调度中心 (核心：防止广告配置下发)
+HOST-KEYWORD, amdc.m.taobao, REJECT
+# 拦截闲鱼启动页广告位
+HOST, link-crops.oss-cn-hangzhou.aliyuncs.com, REJECT
+
 
 # ==========================================================
 # [2] 百度系 (手百/网盘/贴吧)
