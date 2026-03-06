@@ -1,5 +1,4 @@
 # 核心调度：将 REJECT 改为 DIRECT（直连），确保图片分发正常
-#HOST-KEYWORD, amdc.m.taobao, DIRECT
 HOST-KEYWORD, amap.com, DIRECT
 HOST-KEYWORD, autonavi.com, DIRECT
 
