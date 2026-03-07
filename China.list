@@ -1,9 +1,12 @@
+# 确保业务域名直连，防止加载失败
+HOST-KEYWORD,smzdm,DIRECT
+
 # 核心调度：将 REJECT 改为 DIRECT（直连），确保图片分发正常
 HOST-KEYWORD,amap,DIRECT
 HOST-KEYWORD,autonavi,DIRECT
 
 # 如果这一条是 REJECT，淘宝详情页的评价图片和部分主图会转圈圈
-HOST-SUFFIX, ut.taobao.com, DIRECT
+HOST-SUFFIX,ut.taobao.com,DIRECT
 
 # China Area Network
 DOMAIN-SUFFIX,flyert.com,DIRECT
