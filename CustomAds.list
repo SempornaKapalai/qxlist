@@ -1,8 +1,9 @@
+HOST-KEYWORD, log-upload, REJECT
+HOST-KEYWORD, analysis, REJECT
+
 # ==========================================================
 # [1] 阿里系 (闲鱼/淘宝/支付宝/优酷)
 # ==========================================================
-
-
 # 广告追踪：保留这几条，它们只管广告，不影响图片
 HOST, adashbc.ut.taobao.com, REJECT
 HOST, guide-acs.m.taobao.com, REJECT
@@ -10,7 +11,7 @@ HOST, wdp.m.taobao.com, REJECT
 
 # 关键修正：将 ut.taobao.com 改为 DIRECT
 # 如果这一条是 REJECT，淘宝详情页的评价图片和部分主图会转圈圈
-HOST-SUFFIX, ut.taobao.com, DIRECT
+#HOST-SUFFIX, ut.taobao.com, DIRECT
 
 # --- 闲鱼/阿里核心去广告补丁 ---
 # 拦截阿里调度中心 (核心：防止广告配置下发)
