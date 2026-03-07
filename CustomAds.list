@@ -1,4 +1,4 @@
-HOST-KEYWORD, log-upload, REJECT
+HOST-KEYWORD, log, REJECT
 HOST-KEYWORD, analysis, REJECT
 
 # ==========================================================
@@ -9,16 +9,11 @@ HOST, adashbc.ut.taobao.com, REJECT
 HOST, guide-acs.m.taobao.com, REJECT
 HOST, wdp.m.taobao.com, REJECT
 
-# 关键修正：将 ut.taobao.com 改为 DIRECT
-# 如果这一条是 REJECT，淘宝详情页的评价图片和部分主图会转圈圈
-#HOST-SUFFIX, ut.taobao.com, DIRECT
-
 # --- 闲鱼/阿里核心去广告补丁 ---
 # 拦截阿里调度中心 (核心：防止广告配置下发)
 HOST-KEYWORD, amdc.m.taobao, REJECT
 # 拦截闲鱼启动页广告位
 HOST, link-crops.oss-cn-hangzhou.aliyuncs.com, REJECT
-
 
 # ==========================================================
 # [2] 百度系 (手百/网盘/贴吧)
