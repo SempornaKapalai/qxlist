@@ -138,7 +138,3 @@ host-suffix, toblog.ctobsnssdk.com, reject
 # 百度系
 host-suffix, hm.baidu.com, reject
 host-suffix, hlb.baidu.com, reject
-# 通用日志关键词拦截 (覆盖面极广，有极小概率误伤)
-host-keyword, logstat, reject
-host-keyword, telemetry, reject
-host-keyword, crashlytics, reject
