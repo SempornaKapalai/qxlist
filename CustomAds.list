@@ -1,10 +1,4 @@
 # ==========================================================
-# 拦截值得买常用的广告分发关键词
-# ==========================================================
-HOST-KEYWORD, zdmimg, REJECT
-HOST-KEYWORD, uyunad, REJECT
-
-# ==========================================================
 # [1] 阿里系 (闲鱼/淘宝/支付宝/优酷)
 # ==========================================================
 # 广告追踪：保留这几条，它们只管广告，不影响图片
@@ -95,8 +89,10 @@ HOST, adview.ctrip.com, REJECT
 HOST, telemetry.ctrip.com, REJECT
 HOST, ad.ctrip.com, REJECT
 HOST, x.ctrip.com, REJECT
+# 值得买
+HOST-KEYWORD, zdmimg, REJECT
+HOST-KEYWORD, uyunad, REJECT
 
-# ==========================================================
 # [6] 影音社交 (小红书/哔哩哔哩)
 # ==========================================================
 # 小红书
@@ -115,7 +111,6 @@ HOST, ad.bilibili.com, REJECT
 
 # ==========================================================
 # [7] 隐私追踪与第三方 SDK (通用型)
-# ==========================================================
 HOST-KEYWORD, bayescom, REJECT
 HOST-SUFFIX, bayescom.com, REJECT
 HOST-SUFFIX, bayescom.cn, REJECT
@@ -123,4 +118,27 @@ HOST-SUFFIX, umeng.com, REJECT
 HOST-SUFFIX, umengcloud.com, REJECT
 HOST-SUFFIX, ulogs.umeng.com, REJECT
 HOST-SUFFIX, log.umsns.com, REJECT
+
+# [8] [大厂日志与追踪精准拦截]
 # ==========================================================
+# 阿里/支付宝系 (针对 loggw, mmstat 等)
+host-suffix, loggw.alipay.com, reject
+host-suffix, loggw-ex.alipay.com, reject
+host-suffix, log.mmstat.com, reject
+host-suffix, amdc.m.taobao.com, reject
+# 腾讯/微信系 (针对统计与灯塔系统)
+host-suffix, otheve.beacon.qq.com, reject
+host-suffix, v.gj.qq.com, reject
+host-suffix, btrace.qq.com, reject
+host-keyword, telemetry.tencent.com, reject
+# 字节跳动/抖音系 (针对 mon, log 等)
+host-keyword, mon.snssdk.com, reject
+host-keyword, log.snssdk.com, reject
+host-suffix, toblog.ctobsnssdk.com, reject
+# 百度系
+host-suffix, hm.baidu.com, reject
+host-suffix, hlb.baidu.com, reject
+# 通用日志关键词拦截 (覆盖面极广，有极小概率误伤)
+host-keyword, logstat, reject
+host-keyword, telemetry, reject
+host-keyword, crashlytics, reject
