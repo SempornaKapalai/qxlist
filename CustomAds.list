@@ -30,6 +30,8 @@ HOST-KEYWORD, bcebos.com, REJECT
 #HOST-SUFFIX, bdstatic.com, REJECT
 HOST, dns.api.fe.baidu.com, REJECT
 HOST, nsp-api.baidu.com, REJECT
+HOST-SUFFIX, ndcjl.com, REJECT
+HOST-SUFFIX, adkwai.com, REJECT
 
 # ==========================================================
 # [3] 腾讯系 (视频/新闻/QQ/音乐)
