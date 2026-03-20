@@ -3,7 +3,7 @@
 # ==========================================================
 # 广告追踪：保留这几条，它们只管广告，不影响图片
 HOST, adashbc.ut.taobao.com, REJECT
-HOST, guide-acs.m.taobao.com, REJECT
+#HOST, guide-acs.m.taobao.com, REJECT
 HOST, wdp.m.taobao.com, REJECT
 
 # --- 闲鱼/阿里核心去广告补丁 ---
