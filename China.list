@@ -1,3 +1,6 @@
+#tyyun
+host-suffix, ctyunxs.cn, DIRECT
+
 # 确保业务域名直连，防止加载失败
 HOST-KEYWORD,smzdm,DIRECT
 
