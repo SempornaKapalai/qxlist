@@ -134,3 +134,5 @@ HOST-SUFFIX,test.ustc.edu.cn,DIRECT
 HOST-SUFFIX,speed.neu.edu.cn,DIRECT
 # Zerotier
 # IP-CIDR,192.168.193.0/24,DIRECT
+# GEOIP
+GEOIP,CN,DIRECT
