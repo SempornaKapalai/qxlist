@@ -90,6 +90,7 @@ HOST, telemetry.ctrip.com, REJECT
 HOST, ad.ctrip.com, REJECT
 HOST, x.ctrip.com, REJECT
 
+# ==========================================================
 # [6] 影音社交 (小红书/哔哩哔哩)
 # ==========================================================
 # 小红书
@@ -108,6 +109,7 @@ HOST, ad.bilibili.com, REJECT
 
 # ==========================================================
 # [7] 隐私追踪与第三方 SDK (通用型)
+# ==========================================================
 HOST-KEYWORD, bayescom, REJECT
 HOST-SUFFIX, bayescom.com, REJECT
 HOST-SUFFIX, bayescom.cn, REJECT
@@ -116,22 +118,23 @@ HOST-SUFFIX, umengcloud.com, REJECT
 HOST-SUFFIX, ulogs.umeng.com, REJECT
 HOST-SUFFIX, log.umsns.com, REJECT
 
+# ==========================================================
 # [8] [大厂日志与追踪精准拦截]
 # ==========================================================
 # 阿里/支付宝系 (针对 loggw, mmstat 等)
-host-suffix, loggw.alipay.com, REJECT
-host-suffix, loggw-ex.alipay.com, REJECT
-host-suffix, log.mmstat.com, REJECT
-host-suffix, amdc.m.taobao.com, REJECT
+HOST-SUFFIX, loggw.alipay.com, REJECT
+HOST-SUFFIX, loggw-ex.alipay.com, REJECT
+HOST-SUFFIX, log.mmstat.com, REJECT
+HOST-SUFFIX, amdc.m.taobao.com, REJECT
 # 腾讯/微信系 (针对统计与灯塔系统)
-host-suffix, otheve.beacon.qq.com, REJECT
-host-suffix, v.gj.qq.com, REJECT
-host-suffix, btrace.qq.com, REJECT
-host-keyword, telemetry.tencent.com, REJECT
+HOST-SUFFIX, otheve.beacon.qq.com, REJECT
+HOST-SUFFIX, v.gj.qq.com, REJECT
+HOST-SUFFIX, btrace.qq.com, REJECT
+HOST-KEYWORD, telemetry.tencent.com, REJECT
 # 字节跳动/抖音系 (针对 mon, log 等)
-host-keyword, mon.snssdk.com, REJECT
-host-keyword, log.snssdk.com, REJECT
-host-suffix, toblog.ctobsnssdk.com, REJECT
+HOST-KEYWORD, mon.snssdk.com, REJECT
+HOST-KEYWORD, log.snssdk.com, REJECT
+HOST-SUFFIX, toblog.ctobsnssdk.com, REJECT
 # 百度系
-host-suffix, hm.baidu.com, REJECT
-host-suffix, hlb.baidu.com, REJECT
+HOST-SUFFIX, hm.baidu.com, REJECT
+HOST-SUFFIX, hlb.baidu.com, REJECT
