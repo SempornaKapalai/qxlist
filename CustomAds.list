@@ -9,6 +9,7 @@ HOST, wdp.m.taobao.com, REJECT
 HOST-KEYWORD, amdc.m.taobao, REJECT
 # 拦截闲鱼启动页广告位
 HOST, link-crops.oss-cn-hangzhou.aliyuncs.com, REJECT
+HOST, *.oss-enet.aliyuncs.com, REJECT
 
 # ==========================================================
 # [2] 百度系 (手百/网盘/贴吧)
