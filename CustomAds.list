@@ -9,6 +9,7 @@ HOST, wdp.m.taobao.com, REJECT
 HOST-KEYWORD, amdc.m.taobao, REJECT
 # 拦截闲鱼启动页广告位
 HOST, link-crops.oss-cn-hangzhou.aliyuncs.com, REJECT
+# 这条规则如果访问阿里系的产品有问题，可以删掉，这个会导致quanx里面有很多的请求
 HOST, *.oss-enet.aliyuncs.com, REJECT
 
 # ==========================================================
