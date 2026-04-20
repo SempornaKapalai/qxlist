@@ -86,10 +86,6 @@ DOMAIN,sms.imagetasks.com,DIRECT
 # > Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
-# > MYIP
-DOMAIN,jiang-an.tpddns.cn,DIRECT
-DOMAIN,jiangan.synology.me,DIRECT
-DOMAIN,nanhu.synology.me,DIRECT
 # > Others
 DOMAIN,zwfw.hubei.gov.cn,DIRECT
 # > GovernmentCN
