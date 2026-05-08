@@ -1,3 +1,7 @@
+#taobao
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,taobao.cn,DIRECT
+
 #tyyun
 host-suffix, ctyunxs.cn, DIRECT
 
