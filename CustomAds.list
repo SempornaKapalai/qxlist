@@ -51,11 +51,11 @@ HOST-SUFFIX, adsmind.ugdtimg.com, REJECT
 # ==========================================================
 # [4] 字节跳动 (抖音/头条/穿山甲 SDK)
 # ==========================================================
-HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
-HOST-SUFFIX, pglstatp-toutiao.com, REJECT
+#HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
+#HOST-SUFFIX, pglstatp-toutiao.com, REJECT
 #HOST-SUFFIX, snssdk.com, REJECT
-HOST-SUFFIX, dm.toutiao.com, REJECT
-HOST-SUFFIX, ctobsnssdk.com, REJECT
+#HOST-SUFFIX, dm.toutiao.com, REJECT
+#HOST-SUFFIX, ctobsnssdk.com, REJECT
 # 抖音专用补丁
 HOST, ad.doubleclick.net, REJECT
 HOST, adapi.snssdk.com, REJECT
