@@ -53,7 +53,7 @@ HOST-SUFFIX, adsmind.ugdtimg.com, REJECT
 # ==========================================================
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pglstatp-toutiao.com, REJECT
-HOST-SUFFIX, snssdk.com, REJECT
+#HOST-SUFFIX, snssdk.com, REJECT
 HOST-SUFFIX, dm.toutiao.com, REJECT
 HOST-SUFFIX, ctobsnssdk.com, REJECT
 # 抖音专用补丁
