@@ -11,6 +11,8 @@ HOST-KEYWORD, amdc.m.taobao, REJECT
 HOST, link-crops.oss-cn-hangzhou.aliyuncs.com, REJECT
 # 这条规则如果访问阿里系的产品有问题，可以删掉，这个会导致quanx里面有很多的请求
 HOST, *.oss-enet.aliyuncs.com, REJECT
+# 咸鱼
+host-suffix,iyes.youku.com,reject
 
 # ==========================================================
 # [2] 百度系 (手百/网盘/贴吧)
