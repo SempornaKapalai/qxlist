@@ -126,8 +126,8 @@ HOST-SUFFIX, log.umsns.com, REJECT
 # [8] [大厂日志与追踪精准拦截]
 # ==========================================================
 # 阿里/支付宝系 (针对 loggw, mmstat 等)
-HOST-SUFFIX, loggw.alipay.com, REJECT
-HOST-SUFFIX, loggw-ex.alipay.com, REJECT
+#HOST-SUFFIX, loggw.alipay.com, REJECT
+#HOST-SUFFIX, loggw-ex.alipay.com, REJECT
 HOST-SUFFIX, log.mmstat.com, REJECT
 HOST-SUFFIX, amdc.m.taobao.com, REJECT
 # 腾讯/微信系 (针对统计与灯塔系统)
