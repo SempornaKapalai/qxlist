@@ -98,11 +98,11 @@ HOST, x.ctrip.com, REJECT
 # [6] 影音社交 (小红书/哔哩哔哩)
 # ==========================================================
 # 小红书
-HOST, ads-img-qc.xhscdn.com, REJECT
-HOST, ads-video-qc.xhscdn.com, REJECT
-HOST, t-ads.xiaohongshu.com, REJECT
-HOST, galaxy.xiaohongshu.com, REJECT
-HOST, wevent.xiaohongshu.com, REJECT
+#HOST, ads-img-qc.xhscdn.com, REJECT
+#HOST, ads-video-qc.xhscdn.com, REJECT
+#HOST, t-ads.xiaohongshu.com, REJECT
+#HOST, galaxy.xiaohongshu.com, REJECT
+#HOST, wevent.xiaohongshu.com, REJECT
 # 哔哩哔哩
 HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT-DICT
