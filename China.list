@@ -1,138 +1,138 @@
-#taobao
-DOMAIN-SUFFIX,taobao.com,DIRECT
-DOMAIN-SUFFIX,taobao.cn,DIRECT
+# ==========================================================
+# [国内应用专项分流] 强制定向直连 (提速、省流量、防风控)
+# ==========================================================
 
-#tyyun
-host-suffix, ctyunxs.cn, DIRECT
+# >>> [1] 电商与媒体 CDN 专项
+# smzdm
+HOST-SUFFIX, faxianpindao.com, DIRECT
+HOST-SUFFIX, quaolai.com, DIRECT
+HOST-SUFFIX, smzdm.com, DIRECT
+HOST-SUFFIX, smzdmimg.com, DIRECT
+HOST-SUFFIX, valueq-sea.com, DIRECT
+HOST-SUFFIX, wanwuzhinan.com, DIRECT
+HOST-SUFFIX, zdm.net, DIRECT
+HOST-SUFFIX, zdmimg.com, DIRECT
+HOST-SUFFIX, zhidemai.com, DIRECT
+HOST-SUFFIX, umeng.com, DIRECT
+HOST-SUFFIX, alicdn.com, DIRECT
+HOST-KEYWORD, smzdm, DIRECT
 
-# 确保业务域名直连，防止加载失败
-HOST-KEYWORD,smzdm,DIRECT
+# douyin
+HOST-SUFFIX, amemv.com, DIRECT
+HOST-SUFFIX, douyincdn.com, DIRECT
+HOST-SUFFIX, douyinpic.com, DIRECT
+HOST-SUFFIX, douyinstatic.com, DIRECT
+HOST-SUFFIX, douyinvod.com, DIRECT
+HOST-SUFFIX, idouyinvod.com, DIRECT
+HOST-SUFFIX, ixigua.com, DIRECT
+HOST-SUFFIX, ixiguavideo.com, DIRECT
+HOST-SUFFIX, pstatp.com, DIRECT
+HOST-SUFFIX, snssdk.com, DIRECT
+HOST-SUFFIX, toutiao.com, DIRECT
 
-# 核心调度：将 REJECT 改为 DIRECT（直连），确保图片分发正常
-HOST-KEYWORD,amap,DIRECT
-HOST-KEYWORD,autonavi,DIRECT
+# taobao & amap
+HOST-SUFFIX, taobao.com, DIRECT
+HOST-SUFFIX, taobao.cn, DIRECT
+HOST-SUFFIX, ut.taobao.com, DIRECT
+HOST-KEYWORD, amap, DIRECT
+HOST-KEYWORD, autonavi, DIRECT
 
-# 如果这一条是 REJECT，淘宝详情页的评价图片和部分主图会转圈圈
-HOST-SUFFIX,ut.taobao.com,DIRECT
+# tyyun
+HOST-SUFFIX, ctyunxs.cn, DIRECT
 
-# China Area Network
-DOMAIN-SUFFIX,flyert.com,DIRECT
-DOMAIN-SUFFIX,gandi.net,DIRECT
-DOMAIN-SUFFIX,snapdrop.net,DIRECT
-DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
-# > Outlook
-DOMAIN,outlook.office365.com,DIRECT
-DOMAIN,smtp-mail.outlook.com,DIRECT
-DOMAIN,imap-mail.outlook.com,DIRECT
-DOMAIN,smtp.office365.com,DIRECT
-DOMAIN-SUFFIX,msn.com,DIRECT
-HOST-SUFFIX,msn.cn,DIRECT
-HOST-SUFFIX,msn.com.cn,DIRECT
-HOST-SUFFIX,msn.net,DIRECT
-DOMAIN-SUFFIX,live.com,DIRECT
-HOST-SUFFIX,outlook.cn,DIRECT
-HOST-SUFFIX,outlook.com,DIRECT
-HOST-SUFFIX,outlookgroups.ms,DIRECT
-HOST-SUFFIX,outlookmobile.com,DIRECT
-# > Microsoft
-HOST-KEYWORD,microsoft,DIRECT
-HOST-KEYWORD,windowsupdate,DIRECT
-HOST-KEYWORD,officecdn,DIRECT
-HOST-SUFFIX,microsoft.com,DIRECT
-HOST-SUFFIX,live.com,DIRECT
-HOST-SUFFIX,outlook.com,DIRECT
-HOST-SUFFIX,msftncsi.com,DIRECT
-HOST-SUFFIX,windows.com,DIRECT
-HOST-SUFFIX,office.com,DIRECT
-HOST-SUFFIX,onenote.com,DIRECT
-HOST-SUFFIX,sharepoint.com,DIRECT
-HOST-SUFFIX,skype.com,DIRECT
-HOST-SUFFIX,xboxlive.com,DIRECT
-# > Teams
-DOMAIN-SUFFIX,skype.com,DIRECT
-DOMAIN-SUFFIX,teams.microsoft.com,DIRECT
-DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-DOMAIN-SUFFIX,office.com,DIRECT
-HOST,teams.events.data.microsoft.com,DIRECT
-HOST-SUFFIX,teams.cdn.live.net,DIRECT
-HOST-SUFFIX,teams.live.com,DIRECT
-HOST-SUFFIX,teams.microsoft.com,DIRECT
-# > Azure
-#DOMAIN,portal.azure.cn,DIRECT
-DOMAIN-KEYWORD,rdweb.wvd.azure.cn,DIRECT
-DOMAIN-KEYWORD,azure.cn,DIRECT
-DOMAIN-SUFFIX,rdweb.wvd.azure.cn,DIRECT
-DOMAIN-SUFFIX,azure.cn,DIRECT
-DOMAIN-SUFFIX,microsoftpersonalcontent.com,DIRECT
-DOMAIN-SUFFIX,chinacloudapi.cn,DIRECT
-# > Azure-AD
-IP-CIDR,159.27.209.0/24,DIRECT
-IP-CIDR,104.209.141.0/24,DIRECT
-# > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
-DOMAIN-SUFFIX,update.microsoft.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
-DOMAIN,download.microsoft.com,DIRECT
-DOMAIN,wustat.windows.com,DIRECT
-DOMAIN,ntservicepack.microsoft.com,DIRECT
-# > Steam
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN-SUFFIX,steamserver.net,DIRECT
-# > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT
-IP-CIDR,203.205.238.0/23,DIRECT
-IP-CIDR,203.205.254.0/23,DIRECT
-# > IP Query
-DOMAIN,ip.istatmenus.app,DIRECT
-DOMAIN,sms.imagetasks.com,DIRECT
-# > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
-# > Others
-DOMAIN,zwfw.hubei.gov.cn,DIRECT
-# > GovernmentCN
-DOMAIN-SUFFIX,zwfw.hubei.gov.cn,DIRECT
-DOMAIN-SUFFIX,gov.cn,DIRECT
-Host,59.175.218.201,DIRECT
-# > Plex
-DOMAIN,v4.plex.tv,DIRECT
-# > Oyunfor
-DOMAIN-SUFFIX,oyunfor.com,DIRECT
-# > Speedtest 全部直连
-HOST,speed.dler.io,DIRECT
-HOST-SUFFIX,fast.com,DIRECT
-HOST-SUFFIX,ooklaserver.net,DIRECT
-HOST-SUFFIX,speed.cloudflare.com,DIRECT
-HOST-SUFFIX,speed.dler.io,DIRECT
-HOST-KEYWORD,speedtest,DIRECT
-USER-AGENT,SpeedTest*,DIRECT
-# Fast.com
-HOST-SUFFIX,fast.com,DIRECT
-# Ookla Speedtest
-HOST-SUFFIX,speedtest.net,DIRECT
-HOST-SUFFIX,ooklaserver.net,DIRECT
-HOST-KEYWORD,speedtest,DIRECT
-USER-AGENT,SpeedTest*,DIRECT
-# Cloudflare
-HOST-SUFFIX,speed.cloudflare.com,DIRECT
-# dler.io 测速
-HOST-SUFFIX,speed.dler.io,DIRECT
-HOST,speed.dler.io,DIRECT
-# 中国电信测速
-HOST-SUFFIX,189.cn,DIRECT
-HOST-SUFFIX,chinatelecomspeed.com,DIRECT
-# 中国联通测速
-HOST-SUFFIX,10010.com,DIRECT
-HOST-SUFFIX,unicomspeedtest.com,DIRECT
-# 中国移动测速
-HOST-SUFFIX,10086.cn,DIRECT
-HOST-SUFFIX,chinamobiletest.com,DIRECT
-# 其他常见测速平台、中国科大测速、东北大学测速
-HOST-SUFFIX,test.ustc.edu.cn,DIRECT
-HOST-SUFFIX,speed.neu.edu.cn,DIRECT
-# Zerotier
-# IP-CIDR,192.168.193.0/24,DIRECT
-# GEOIP
-GEOIP,CN,DIRECT
+# >>> [2] 生产力工具与开发环境
+HOST-SUFFIX, flyert.com, DIRECT
+HOST-SUFFIX, ganti.net, DIRECT
+HOST-SUFFIX, snapdrop.net, DIRECT
+HOST, download.jetbrains.com, DIRECT
+HOST, origin-a.akamaihd.net, DIRECT
+
+# >>> [3] 微软与 Azure 办公生态 (全量修正语法并去重)
+HOST, outlook.office365.com, DIRECT
+HOST, smtp-mail.outlook.com, DIRECT
+HOST, imap-mail.outlook.com, DIRECT
+HOST, smtp.office365.com, DIRECT
+HOST, teams.events.data.microsoft.com, DIRECT
+HOST-KEYWORD, microsoft, DIRECT
+HOST-KEYWORD, windowsupdate, DIRECT
+HOST-KEYWORD, officecdn, DIRECT
+HOST-KEYWORD, rdweb.wvd.azure.cn, DIRECT
+HOST-KEYWORD, azure.cn, DIRECT
+HOST-SUFFIX, msn.com, DIRECT
+HOST-SUFFIX, msn.cn, DIRECT
+HOST-SUFFIX, msn.com.cn, DIRECT
+HOST-SUFFIX, msn.net, DIRECT
+HOST-SUFFIX, live.com, DIRECT
+HOST-SUFFIX, outlook.cn, DIRECT
+HOST-SUFFIX, outlook.com, DIRECT
+HOST-SUFFIX, outlookgroups.ms, DIRECT
+HOST-SUFFIX, outlookmobile.com, DIRECT
+HOST-SUFFIX, msftncsi.com, DIRECT
+HOST-SUFFIX, windows.com, DIRECT
+HOST-SUFFIX, office.com, DIRECT
+HOST-SUFFIX, onenote.com, DIRECT
+HOST-SUFFIX, sharepoint.com, DIRECT
+HOST-SUFFIX, skype.com, DIRECT
+HOST-SUFFIX, xboxlive.com, DIRECT
+HOST-SUFFIX, teams.microsoft.com, DIRECT
+HOST-SUFFIX, microsoftonline.com, DIRECT
+HOST-SUFFIX, teams.cdn.live.net, DIRECT
+HOST-SUFFIX, teams.live.com, DIRECT
+HOST-SUFFIX, microsoftpersonalcontent.com, DIRECT
+HOST-SUFFIX, chinacloudapi.cn, DIRECT
+
+# Azure-AD & WSUS 补丁
+IP-CIDR, 159.27.209.0/24, DIRECT
+IP-CIDR, 104.209.141.0/24, DIRECT
+HOST-SUFFIX, dl.delivery.mp.microsoft.com, DIRECT
+HOST-SUFFIX, update.microsoft.com, DIRECT
+HOST-SUFFIX, windowsupdate.com, DIRECT
+HOST-SUFFIX, windowsupdate.microsoft.com, DIRECT
+HOST, download.microsoft.com, DIRECT
+HOST, wustat.windows.com, DIRECT
+HOST, ntservicepack.microsoft.com, DIRECT
+
+# >>> [4] 游戏与大厂底层 CDN
+# Steam
+HOST-SUFFIX, cm.steampowered.com, DIRECT
+HOST-SUFFIX, steamserver.net, DIRECT
+# Tencent
+IP-CIDR, 182.254.116.0/24, DIRECT
+IP-CIDR, 203.205.238.0/23, DIRECT
+IP-CIDR, 203.205.254.0/23, DIRECT
+
+# >>> [5] 环境诊断、测速与政务服务 (去重精简)
+HOST, ip.istatmenus.app, DIRECT
+HOST, sms.imagetasks.com, DIRECT
+HOST-KEYWORD, speedtest, DIRECT
+USER-AGENT, SpeedTest*, DIRECT
+HOST-SUFFIX, netspeedtestmaster.com, DIRECT
+HOST, speed.macpaw.com, DIRECT
+HOST-SUFFIX, fast.com, DIRECT
+HOST-SUFFIX, ooklaserver.net, DIRECT
+HOST-SUFFIX, speed.cloudflare.com, DIRECT
+HOST-SUFFIX, speed.dler.io, DIRECT
+HOST-SUFFIX, speedtest.net, DIRECT
+HOST-SUFFIX, 189.cn, DIRECT
+HOST-SUFFIX, chinatelecomspeed.com, DIRECT
+HOST-SUFFIX, 10010.com, DIRECT
+HOST-SUFFIX, unicomspeedtest.com, DIRECT
+HOST-SUFFIX, 10086.cn, DIRECT
+HOST-SUFFIX, chinamobiletest.com, DIRECT
+HOST-SUFFIX, test.ustc.edu.cn, DIRECT
+HOST-SUFFIX, speed.neu.edu.cn, DIRECT
+
+# 湖北政务服务 (精准对齐本地网络)
+HOST-SUFFIX, gov.cn, DIRECT
+HOST-SUFFIX, zwfw.hubei.gov.cn, DIRECT
+HOST, 59.175.218.201, DIRECT
+
+# Media & Fun
+HOST, v4.plex.tv, DIRECT
+HOST-SUFFIX, oyunfor.com, DIRECT
+
+# >>> [6] 地理空间与本地兜底
+# ZeroTier 虚拟局域网拓扑 (若有 HomeLab 节点互联需求，可取消下方注释)
+# IP-CIDR, 192.168.193.0/24, DIRECT
+
+GEOIP, CN, DIRECT
