@@ -1,11 +1,11 @@
 # ChinaApps
 # xiaohongshu
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-HOST-SUFFIX,xhscdn.com,ChinaAppsIP
-HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
-HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
-HOST-SUFFIX,xhscdn.net,ChinaAppsIP
-IP-CIDR,119.29.29.98/32,ChinaAppsIP
+#HOST-SUFFIX,xhscdn.com,ChinaAppsIP
+#HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
+#HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
+#HOST-SUFFIX,xhscdn.net,ChinaAppsIP
+#IP-CIDR,119.29.29.98/32,ChinaAppsIP
 
 #HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 #DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
