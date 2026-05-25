@@ -3,6 +3,13 @@
 # ==========================================================
 
 # >>> [1] 电商与媒体 CDN 专项
+# 小红书
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,fengkongcloud.com,DIRECT
+HOST-SUFFIX,qnqcdn.net,DIRECT
+HOST-SUFFIX,xhscdn.net,DIRECT
+IP-CIDR,119.29.29.98/32,DIRECT
+
 # smzdm
 HOST-SUFFIX, faxianpindao.com, DIRECT
 HOST-SUFFIX, quaolai.com, DIRECT
