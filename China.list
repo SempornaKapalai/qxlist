@@ -2,6 +2,15 @@
 # [国内应用专项分流] 强制定向直连 (提速、省流量、防风控)
 # ==========================================================
 
+# >>> [补充] 国内三大公共商业 CDN 加速（App 闪电加载的关键）
+# 网宿科技（国内 50% 以上 App 都在用它的 CDN 边缘节点）
+HOST-SUFFIX, chinanetcenter.com, DIRECT
+# 网宿网路加速底层
+HOST-SUFFIX, wscdns.com, DIRECT
+# 白山云加速（小红书、知乎等常客）
+HOST-SUFFIX, baishancdn.com, DIRECT
+
+
 # >>> [补充] 阿里系核心媒体与文件分发
 # 淘宝详情页主图、评价图、闲鱼图片、优酷视频流、高德地图切片
 HOST-SUFFIX, alicdn.com, DIRECT
