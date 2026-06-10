@@ -2,6 +2,32 @@
 # [国内应用专项分流] 强制定向直连 (提速、省流量、防风控)
 # ==========================================================
 
+# >>> [补充] 阿里系核心媒体与文件分发
+# 淘宝详情页主图、评价图、闲鱼图片、优酷视频流、高德地图切片
+HOST-SUFFIX, alicdn.com, DIRECT
+HOST-SUFFIX, tbcache.com, DIRECT
+HOST-SUFFIX, mmstat.com, DIRECT
+HOST-SUFFIX, ykimg.com, DIRECT
+HOST-SUFFIX, soku.com, DIRECT
+
+# >>> [补充] 腾讯系核心媒体与文件分发
+# 微信朋友圈图片/小视频、腾讯视频流、QQ 音乐、腾讯新闻媒体
+HOST-SUFFIX, qpic.cn, DIRECT
+HOST-SUFFIX, qlogo.cn, DIRECT
+HOST-SUFFIX, gtimg.cn, DIRECT
+HOST-SUFFIX, gtimg.com, DIRECT
+HOST-SUFFIX, myqcloud.com, DIRECT
+HOST-SUFFIX, qcloudimg.com, DIRECT
+HOST-SUFFIX, vv.video.qq.com, DIRECT
+
+# >>> [补充] 百度系核心媒体与文件分发
+# 百度网盘下载流、手百视频、贴吧高清大图、百度地图切片
+HOST-SUFFIX, bdstatic.com, DIRECT
+HOST-SUFFIX, baidustatic.com, DIRECT
+HOST-SUFFIX, bcebos.com, DIRECT
+HOST-SUFFIX, baiducontent.com, DIRECT
+
+
 # >>> [1] 电商与媒体 CDN 专项
 # 小红书
 HOST-SUFFIX,xhscdn.com,DIRECT
