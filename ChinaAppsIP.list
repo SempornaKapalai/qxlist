@@ -1,27 +1,25 @@
 # ChinaApps
 # >>> 【小红书极致动静分离：属地美国 + 视频图片直连】
-
-# 1. 拦截所有核心 API、风控、账号登录、评论发送接口（必须走美国，死锁属地）
-DOMAIN,ark.xiaohongshu.com,ChinaAppsIP
+# 1. 核心交互与风控（走美国）
+HOST-KEYWORD, ark.xiaohongshu, ChinaAppsIP
 DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
+DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
 DOMAIN,as.xiaohongshu.com,ChinaAppsIP
 DOMAIN,gslb.xiaohongshu.com,ChinaAppsIP
 DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
-DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
 DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
 DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
 DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 
-# 2. 兜底小红书其余未知域名（走美国，防止漏掉新 API 导致属地横跳）
-HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-
-# 3. 放行所有大流量的图片、视频、动图、静态资源（强行直连，速度拉满）
+# 2. 大流量媒体资源强行拦截（走直连）—— 这一段是保住你刷视频速度的核心！
 HOST-SUFFIX,xhscdn.com,DIRECT
 HOST-SUFFIX,xhscdn.net,DIRECT
-#HOST-SUFFIX,qnqcdn.net,DIRECT
-#IP-CIDR,119.29.29.98/32,DIRECT
+HOST-SUFFIX,qnqcdn.net,DIRECT
+
+# 3. 散落域名终极防漏兜底（走美国）
+HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 
 #HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 #HOST-SUFFIX,xhscdn.com,ChinaAppsIP
