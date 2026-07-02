@@ -14,16 +14,14 @@ DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 
-# 2. 放行所有大流量的图片、视频、动图、静态资源（强行直连，速度拉满）
-HOST-SUFFIX,xhscdn.com,DIRECT
-HOST-SUFFIX,xhscdn.net,DIRECT
-HOST-SUFFIX,qnqcdn.net,DIRECT
-IP-CIDR,119.29.29.98/32,DIRECT
-
-# 3. 兜底小红书其余未知域名（走美国，防止漏掉新 API 导致属地横跳）
+# 2. 兜底小红书其余未知域名（走美国，防止漏掉新 API 导致属地横跳）
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 
-
+# 3. 放行所有大流量的图片、视频、动图、静态资源（强行直连，速度拉满）
+#HOST-SUFFIX,xhscdn.com,DIRECT
+#HOST-SUFFIX,xhscdn.net,DIRECT
+#HOST-SUFFIX,qnqcdn.net,DIRECT
+#IP-CIDR,119.29.29.98/32,DIRECT
 
 #HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 #HOST-SUFFIX,xhscdn.com,ChinaAppsIP
