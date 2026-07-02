@@ -20,3 +20,4 @@ HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
 # 3. 散落域名与未知的隐藏长连接大网拦截（走美国，防止漏网穿帮）
 HOST-KEYWORD,xiaohongshu,ChinaAppsIP
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
+final, ChinaAppsIP
