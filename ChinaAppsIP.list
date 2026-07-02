@@ -18,8 +18,8 @@ HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
 
 # 3. 放行所有大流量的图片、视频、动图、静态资源（强行直连，速度拉满）
-#HOST-SUFFIX,xhscdn.com,DIRECT
-#HOST-SUFFIX,xhscdn.net,DIRECT
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,xhscdn.net,DIRECT
 #HOST-SUFFIX,qnqcdn.net,DIRECT
 #IP-CIDR,119.29.29.98/32,DIRECT
 
