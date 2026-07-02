@@ -14,9 +14,9 @@ DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 
 # 2. 大流量媒体资源强行拦截（走直连）—— 这一段是保住你刷视频速度的核心！
-HOST-SUFFIX,xhscdn.com,DIRECT
-HOST-SUFFIX,xhscdn.net,DIRECT
-HOST-SUFFIX,qnqcdn.net,DIRECT
+#HOST-SUFFIX,xhscdn.com,DIRECT
+#HOST-SUFFIX,xhscdn.net,DIRECT
+#HOST-SUFFIX,qnqcdn.net,DIRECT
 
 # 3. 散落域名终极防漏兜底（走美国）
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
