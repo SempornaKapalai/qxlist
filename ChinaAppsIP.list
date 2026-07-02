@@ -1,6 +1,5 @@
-# ChinaApps
-# >>> 【小红书极致动静分离：属地美国 + 视频图片直连】
-# 1. 核心交互与风控（走美国）
+# >>> 【小红书精准动静分离：纯净无错版】
+# 1. 核心交互、风控与长连接（必须走美国，死锁属地）
 HOST-KEYWORD, ark.xiaohongshu, ChinaAppsIP
 DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
 DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
@@ -13,34 +12,11 @@ DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
 DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
 HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 
-# 2. 大流量媒体资源强行拦截（走直连）—— 这一段是保住你刷视频速度的核心！
+# 2. 核心大流量静态资源截胡区
 HOST-SUFFIX,xhscdn.com,ChinaAppsIP
 HOST-SUFFIX,xhscdn.net,ChinaAppsIP
 HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
 
-# 3. 散落域名终极防漏兜底（走美国）
+# 3. 散落域名与未知的隐藏长连接大网拦截（走美国，防止漏网穿帮）
+HOST-KEYWORD,xiaohongshu,ChinaAppsIP
 HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-
-#HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-#HOST-SUFFIX,xhscdn.com,ChinaAppsIP
-#HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
-#HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
-#HOST-SUFFIX,xhscdn.net,ChinaAppsIP
-#IP-CIDR,119.29.29.98/32,ChinaAppsIP
-#HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-#DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,as.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,gslb.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,www.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
-#DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
-#HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
-#HOST-SUFFIX,xhscdn.com,ChinaAppsIP
-#HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-#HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
-#ip-cidr,119.29.29.98/32,ChinaAppsIP
-
