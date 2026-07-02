@@ -1,23 +1,26 @@
-# >>> 【小红书精准动静分离：纯净无错版】
-# 1. 核心交互、风控与长连接（必须走美国，死锁属地）
-HOST-KEYWORD, ark.xiaohongshu, ChinaAppsIP
-DOMAIN,edith.xiaohongshu.com,ChinaAppsIP
-DOMAIN,edith-seb.xiaohongshu.com,ChinaAppsIP
-DOMAIN,as.xiaohongshu.com,ChinaAppsIP
-DOMAIN,gslb.xiaohongshu.com,ChinaAppsIP
-DOMAIN,spider-tracker.xiaohongshu.com,ChinaAppsIP
-DOMAIN,crash.xiaohongshu.com,ChinaAppsIP
-DOMAIN,apppush-nj.xiaohongshu.com,ChinaAppsIP
-DOMAIN,ing.xiaohongshu.com,ChinaAppsIP
-DOMAIN,t2.xiaohongshu.com,ChinaAppsIP
-HOST-SUFFIX,fengkongcloud.com,ChinaAppsIP
 
-# 2. 核心大流量静态资源截胡区
-HOST-SUFFIX,xhscdn.com,ChinaAppsIP
-HOST-SUFFIX,xhscdn.net,ChinaAppsIP
-HOST-SUFFIX,qnqcdn.net,ChinaAppsIP
+# 1. 修正语法后的核心交互、风控与精准 API（全部用 host 确保 QuanX 正确解析）
+host-keyword, ark.xiaohongshu, ChinaAppsIP
+host, edith.xiaohongshu.com, ChinaAppsIP
+host, edith-seb.xiaohongshu.com, ChinaAppsIP
+host, api.xiaohongshu.com, ChinaAppsIP
+host, as.xiaohongshu.com, ChinaAppsIP
+host, gslb.xiaohongshu.com, ChinaAppsIP
+host, geo.xiaohongshu.com, ChinaAppsIP
+host, vapi.xiaohongshu.com, ChinaAppsIP
+host, spider-tracker.xiaohongshu.com, ChinaAppsIP
+host, crash.xiaohongshu.com, ChinaAppsIP
+host, apppush-nj.xiaohongshu.com, ChinaAppsIP
+host, ing.xiaohongshu.com, ChinaAppsIP
+host, t2.xiaohongshu.com, ChinaAppsIP
+host-suffix, fengkongcloud.com, ChinaAppsIP
 
-# 3. 散落域名与未知的隐藏长连接大网拦截（走美国，防止漏网穿帮）
-HOST-KEYWORD,xiaohongshu,ChinaAppsIP
-HOST-SUFFIX,xiaohongshu.com,ChinaAppsIP
-HOST-SUFFIX,rednotecdn.com,ChinaAppsIP
+# 2. 大流量媒体资源全量拦截（放弃直连，全部抓回代理组）
+host-suffix, xhscdn.com, ChinaAppsIP
+host-suffix, xhscdn.net, ChinaAppsIP
+host-suffix, qnqcdn.net, ChinaAppsIP
+host-suffix, rednotecdn.com, ChinaAppsIP
+
+# 3. 终极局部 FINAL 网兜：只要包含关键词或后缀，无条件送去美国
+host-keyword, xiaohongshu, ChinaAppsIP
+host-suffix, xiaohongshu.com, ChinaAppsIP
