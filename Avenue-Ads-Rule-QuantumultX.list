@@ -4,6 +4,7 @@
 #Version: 1.6.9-release
 #Update time: 2026-06-15 21:32:00 UTC+8
 #Update content: 移除一些不应当被拦截的字节域名
+#https://awavenue.top/Sub.html---更新地址
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -171,7 +172,6 @@ DOMAIN,adx.appsdk.com.cn,reject
 DOMAIN,adx.sogaha.cn,reject
 DOMAIN,adx.tuia.cn,reject
 DOMAIN,adxlog-adnet.vivo.com.cn,reject
-DOMAIN,adxserver.ad.cmvideo.cn,reject
 DOMAIN,aegis.qq.com,reject
 DOMAIN,aem.dentsuchina.cn,reject
 DOMAIN,afs.googlesyndication.com,reject
@@ -379,9 +379,6 @@ DOMAIN,gdfp.gifshow.com,reject
 DOMAIN,gemini.yahoo.com,reject
 DOMAIN,geo.yahoo.com,reject
 DOMAIN,getui.cn,reject
-DOMAIN,ggx.cmvideo.cn,reject
-DOMAIN,ggx01.miguvideo.com,reject
-DOMAIN,ggx03.miguvideo.com,reject
 DOMAIN,globalapi.ad.xiaomi.com,reject
 DOMAIN,google-analytics.com,reject
 DOMAIN,googleads.g.doubleclick-cn.net,reject
@@ -513,7 +510,6 @@ DOMAIN,log.tbs.qq.com,reject
 DOMAIN,log.vcgame.cn,reject
 DOMAIN,log.web.kugou.com,reject
 DOMAIN,log.zijieapi.com,reject
-DOMAIN,log1.cmpassport.com,reject
 DOMAIN,logbak.hicloud.com,reject
 DOMAIN,logrcv.aiclk.com,reject
 DOMAIN,logrcv.yunxish.com,reject
@@ -715,7 +711,6 @@ DOMAIN,skdisplay.jd.com,reject
 DOMAIN,sl.hpplay.cn,reject
 DOMAIN,slb-p2p.vcloud.ks-live.com,reject
 DOMAIN,smad.ms.zhangyue.net,reject
-DOMAIN,smartad.10010.com,reject
 DOMAIN,smetrics.samsung.com,reject
 DOMAIN,sms.ads.oppomobile.com,reject
 DOMAIN,sngmta.qq.com,reject
@@ -757,13 +752,13 @@ DOMAIN,target.ads.jihuoniao.com,reject
 DOMAIN,tdc.qq.com,reject
 DOMAIN,tdsdk.cpatrk.net,reject
 DOMAIN,tdsdk.xdrig.com,reject
-DOMAIN,telecome.cn,reject
 DOMAIN,telemetry.sdk.inmobi.com,reject
 DOMAIN,tencent-dtv.m.cn.miaozhen.com,reject
 DOMAIN,test.ad.xiaomi.com,reject
 DOMAIN,test.e.ad.xiaomi.com,reject
 DOMAIN,tj.b.qq.com,reject
 DOMAIN,tj.video.qq.com,reject
+DOMAIN,tk.anythinktech.com,reject
 DOMAIN,tk.anythinktech.com,reject
 DOMAIN,tmead.y.qq.com,reject
 DOMAIN,tmeadcomm.y.qq.com,reject
