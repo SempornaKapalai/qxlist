@@ -1,10 +1,4 @@
 #Title: AWAvenue Ads Rule (Custom Cleaned & Purged)
-#Version: 1.6.9-release-modified
-#Description: 已彻底清除阿里核心域名、手机系统广告、电视投屏广告及所有过滤占位符
-#https://awavenue.top/Sub.html---更新地址
-#Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-#License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
-
 
 DOMAIN,1500020991.vodplayer.wxamedia.com,reject
 DOMAIN,1500022744.vodplayer.wxamedia.com,reject
