@@ -1,8 +1,8 @@
 # ==========================================================
-# CustomAds 2.0 - 精准分流去广告补丁 (零误伤提速版)
+# Ads-Rule 3.0 - 精准分流去广告补丁 (零误伤提速版)
 # ==========================================================
 
-# ======= [1] 纯粹广告联盟与买量 SDK (全球通用) =======
+# ======= 纯粹广告联盟与买量 SDK (全球通用) =======
 HOST, ad.zijieapi.com, REJECT
 HOST, init.supersonicads.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
@@ -28,7 +28,7 @@ HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
 HOST-KEYWORD, pangolin.snssdk.com, REJECT
 HOST-KEYWORD, pglstatp-toutiao, REJECT
 
-# ======= [2] 纯粹第三方隐私与埋点 (不碰大厂底层) =======
+# ======= 纯粹第三方隐私与埋点 (不碰大厂底层) =======
 HOST-KEYWORD, bayescom, REJECT
 HOST-SUFFIX, bayescom.com, REJECT
 HOST-SUFFIX, bayescom.cn, REJECT
@@ -53,7 +53,7 @@ DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net,reject
 DOMAIN,dyp2p-ali.douyucdn.cn,reject
 DOMAIN,dyp2p-hw.douyucdn.cn,reject
 
-# 字节跳动 (ByteDance / 穿山甲巨量引擎)
+# ======= 字节跳动 (ByteDance / 穿山甲巨量引擎)======= 
 DOMAIN,abtest-ch.snssdk.com,reject
 DOMAIN,ad.toutiao.com,reject
 DOMAIN,ad.zijieapi.com,reject
@@ -75,11 +75,19 @@ DOMAIN,api-access.pangolin-sdk-toutiao5.com,reject
 DOMAIN,api5-normal-quic-lf.ixigua.com,reject
 DOMAIN,csjplatform.com,reject
 
+# ======= 百度 (Baidu / 百青藤联盟) ======
+DOMAIN,cbjs.baidu.com,reject
+DOMAIN,cpro.baidustatic.com,reject
+DOMAIN,eclick.baidu.com,reject
 
+# ======= 京东 (JD) ======
+DOMAIN,addata.jd.com,reject
+DOMAIN,ccc-x.jd.com,reject
+DOMAIN,dsp-x.jd.com,reject
 
-
-
-
-
-
-
+# ======= 国际字节 (TikTok) ======
+DOMAIN,ads-api.tiktok.com,reject
+DOMAIN,ads-jp.tiktok.com,reject
+DOMAIN,ads-sg.tiktok.com,reject
+DOMAIN,ads.tiktok.com,reject
+DOMAIN,business-api.tiktok.com,reject
