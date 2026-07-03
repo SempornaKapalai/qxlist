@@ -51,6 +51,8 @@ DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net, REJECT
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net, REJECT
 DOMAIN,dyp2p-ali.douyucdn.cn, REJECT
 DOMAIN,dyp2p-hw.douyucdn.cn, REJECT
+DOMAIN-KEYWORD,p2p-pcdn,REJECT
+DOMAIN-SUFFIX,p2p.huoshan.com,REJECT
 
 # ======= 字节跳动 (ByteDance / 穿山甲巨量引擎) ======= 
 DOMAIN,abtest-ch.snssdk.com, REJECT
