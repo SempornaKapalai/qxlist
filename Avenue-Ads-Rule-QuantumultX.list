@@ -40,7 +40,6 @@ DOMAIN,ad.xunkids.com,reject
 DOMAIN,ad.zijieapi.com,reject
 DOMAIN,adapi.izuiyou.com,reject
 DOMAIN,adapi.yynetwk.com,reject
-DOMAIN,adashxgc.ut.taobao.com,reject
 DOMAIN,adcdn.tencentmusic.com,reject
 DOMAIN,adclick.g.doubleclick.net,reject
 DOMAIN,adclick.tencentmusic.com,reject
@@ -100,7 +99,6 @@ DOMAIN,adservice.sigmob.cn,reject
 DOMAIN,adserviceretry.kugou.com,reject
 DOMAIN,adsfile.bssdlbig.kugou.com,reject
 DOMAIN,adsfile.qq.com,reject
-DOMAIN,adsfilebssdlbig.ali.kugou.com,reject
 DOMAIN,adsfileretry.service.kugou.com,reject
 DOMAIN,adslvfile.qq.com,reject
 DOMAIN,adsmind.gdtimg.com,reject
@@ -111,8 +109,6 @@ DOMAIN,adstats.tencentmusic.com,reject
 DOMAIN,adstore-1252524079.file.myqcloud.com,reject
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,reject
 DOMAIN,adstrategy.biz.weibo.com,reject
-DOMAIN,adstudio-assets.scdn.co,reject
-DOMAIN,adstudio.spotify.com,reject
 DOMAIN,adtago.s3.amazonaws.com,reject
 DOMAIN,adtech.yahooinc.com,reject
 DOMAIN,adtrack.quark.cn,reject
@@ -210,10 +206,8 @@ DOMAIN,applovin.com,reject
 DOMAIN,aqyad.com,reject
 DOMAIN,aspect-upush.umeng.com,reject
 DOMAIN,auction.unityads.unity3d.com,reject
-DOMAIN,audid-api.taobao.com,reject
 DOMAIN,audid.umeng.com,reject
 DOMAIN,badjs.weixinbridge.com,reject
-DOMAIN,baichuan-sdk.alicdn.com,reject
 DOMAIN,bdad.123pan.cn,reject
 DOMAIN,bdcdncnc.inter.71edge.com,reject
 DOMAIN,beacon-api.aliyuncs.com,reject
@@ -253,7 +247,6 @@ DOMAIN,cdn.aiclk.com,reject
 DOMAIN,cdn.chinaliftoff-creatives.io,reject
 DOMAIN,cdn.iads.unitychina.cn,reject
 DOMAIN,cdn.liftoff-creatives.io,reject
-DOMAIN,cdn.ynuf.aliapp.org,reject
 DOMAIN,cfg.imtt.qq.com,reject
 DOMAIN,chat1.jd.com,reject
 DOMAIN,chiq-cloud.com,reject
