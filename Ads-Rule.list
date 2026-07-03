@@ -41,53 +41,51 @@ HOST-SUFFIX, otheve.beacon.qq.com, REJECT
 HOST-SUFFIX, hm.baidu.com, REJECT
 HOST-SUFFIX, hlb.baidu.com, REJECT
 
-
 # ======= 大厂视频流媒体 P2P 上传节点优化 (PCDN) =======
-DOMAIN,1500020991.vodplayer.wxamedia.com,reject
-DOMAIN,1500022744.vodplayer.wxamedia.com,reject
-DOMAIN,1500026601.vodplayer.wxamedia.com,reject
-DOMAIN,ali-p2p-v2.pull.yximgs.com,reject
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,reject
-DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net,reject
-DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net,reject
-DOMAIN,dyp2p-ali.douyucdn.cn,reject
-DOMAIN,dyp2p-hw.douyucdn.cn,reject
+DOMAIN,1500020991.vodplayer.wxamedia.com, REJECT
+DOMAIN,1500022744.vodplayer.wxamedia.com, REJECT
+DOMAIN,1500026601.vodplayer.wxamedia.com, REJECT
+DOMAIN,ali-p2p-v2.pull.yximgs.com, REJECT
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
+DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net, REJECT
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net, REJECT
+DOMAIN,dyp2p-ali.douyucdn.cn, REJECT
+DOMAIN,dyp2p-hw.douyucdn.cn, REJECT
 
-# ======= 字节跳动 (ByteDance / 穿山甲巨量引擎)======= 
-DOMAIN,abtest-ch.snssdk.com,reject
-DOMAIN,ad.toutiao.com,reject
-DOMAIN,ad.zijieapi.com,reject
-DOMAIN,ads3-normal-hl.zijieapi.com,reject
-DOMAIN,ads3-normal-lf.zijieapi.com,reject
-DOMAIN,ads3-normal-lq.zijieapi.com,reject
-DOMAIN,ads3-normal.zijieapi.com,reject
-DOMAIN,ads5-normal-hl.zijieapi.com,reject
-DOMAIN,ads5-normal-lf.zijieapi.com,reject
-DOMAIN,ads5-normal-lq.zijieapi.com,reject
-DOMAIN,ads5-normal.zijieapi.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao1.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao2.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao3.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao4.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao5.com,reject
-DOMAIN,api5-normal-quic-lf.ixigua.com,reject
-DOMAIN,csjplatform.com,reject
+# ======= 字节跳动 (ByteDance / 穿山甲巨量引擎) ======= 
+DOMAIN,abtest-ch.snssdk.com, REJECT
+DOMAIN,ad.toutiao.com, REJECT
+DOMAIN,ads3-normal-hl.zijieapi.com, REJECT
+DOMAIN,ads3-normal-lf.zijieapi.com, REJECT
+DOMAIN,ads3-normal-lq.zijieapi.com, REJECT
+DOMAIN,ads3-normal.zijieapi.com, REJECT
+DOMAIN,ads5-normal-hl.zijieapi.com, REJECT
+DOMAIN,ads5-normal-lf.zijieapi.com, REJECT
+DOMAIN,ads5-normal-lq.zijieapi.com, REJECT
+DOMAIN,ads5-normal.zijieapi.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao1.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao2.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao3.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao4.com, REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao5.com, REJECT
+DOMAIN,api5-normal-quic-lf.ixigua.com, REJECT
+DOMAIN,csjplatform.com, REJECT
 
 # ======= 百度 (Baidu / 百青藤联盟) ======
-DOMAIN,cbjs.baidu.com,reject
-DOMAIN,cpro.baidustatic.com,reject
-DOMAIN,eclick.baidu.com,reject
+DOMAIN,cbjs.baidu.com, REJECT
+DOMAIN,cpro.baidustatic.com, REJECT
+DOMAIN,eclick.baidu.com, REJECT
 
 # ======= 京东 (JD) ======
-DOMAIN,addata.jd.com,reject
-DOMAIN,ccc-x.jd.com,reject
-DOMAIN,dsp-x.jd.com,reject
+DOMAIN,addata.jd.com, REJECT
+DOMAIN,ccc-x.jd.com, REJECT
+DOMAIN,dsp-x.jd.com, REJECT
 
 # ======= 国际字节 (TikTok) ======
-DOMAIN,ads-api.tiktok.com,reject
-DOMAIN,ads-jp.tiktok.com,reject
-DOMAIN,ads-sg.tiktok.com,reject
-DOMAIN,ads.tiktok.com,reject
-DOMAIN,business-api.tiktok.com,reject
+DOMAIN,ads-api.tiktok.com, REJECT
+DOMAIN,ads-jp.tiktok.com, REJECT
+DOMAIN,ads-sg.tiktok.com, REJECT
+DOMAIN,ads.tiktok.com, REJECT
+DOMAIN,business-api.tiktok.com, REJECT
