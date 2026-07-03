@@ -41,3 +41,14 @@ HOST-SUFFIX, otheve.beacon.qq.com, REJECT
 HOST-SUFFIX, hm.baidu.com, REJECT
 HOST-SUFFIX, hlb.baidu.com, REJECT
 
+
+# ======= 大厂视频流媒体 P2P 上传节点优化 (PCDN) =======
+DOMAIN,1500020991.vodplayer.wxamedia.com,reject
+DOMAIN,1500022744.vodplayer.wxamedia.com,reject
+DOMAIN,1500026601.vodplayer.wxamedia.com,reject
+DOMAIN,ali-p2p-v2.pull.yximgs.com,reject
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,reject
+DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net,reject
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net,reject
+DOMAIN,dyp2p-ali.douyucdn.cn,reject
+DOMAIN,dyp2p-hw.douyucdn.cn,reject
