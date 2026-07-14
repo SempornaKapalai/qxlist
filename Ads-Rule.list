@@ -21,7 +21,6 @@ HOST-SUFFIX, appsflyersdk.com, REJECT
 HOST-SUFFIX, kuaishouzt.com, REJECT
 HOST-SUFFIX, miaozhen.com, REJECT
 HOST-SUFFIX, unityads.unity3d.com, REJECT
-HOST-SUFFIX, sentry.io, REJECT
 HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 HOST-KEYWORD, ads.g.doubleclick, REJECT
 HOST-KEYWORD, asiad.byteactivity, REJECT
