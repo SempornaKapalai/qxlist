@@ -16,7 +16,7 @@ host, t2.xiaohongshu.com, ChinaAppsIP
 host-suffix, fengkongcloud.com, ChinaAppsIP
 
 # 2. 大流量媒体资源全量拦截（放弃直连，全部抓回代理组）
-host-suffix, xhscdn.com, ChinaAppsIP
+#host-suffix, xhscdn.com, ChinaAppsIP
 host-suffix, xhscdn.net, ChinaAppsIP
 host-suffix, qnqcdn.net, ChinaAppsIP
 host-suffix, rednotecdn.com, ChinaAppsIP
