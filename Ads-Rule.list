@@ -3,6 +3,7 @@
 # ==========================================================
 
 # ======= 纯粹广告联盟与买量 SDK (全球通用) =======
+HOST, ad.yicai.com, REJECT
 HOST, ad.zijieapi.com, REJECT
 HOST, init.supersonicads.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
