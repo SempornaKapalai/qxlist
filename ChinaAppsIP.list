@@ -4,7 +4,7 @@ host, geo.xiaohongshu.com, ChinaAppsIP
 host-suffix, fengkongcloud.com, ChinaAppsIP
 
 host, edith.xiaohongshu.com, ChinaAppsIP
-#host, edith-seb.xiaohongshu.com, ChinaAppsIP
+host, edith-seb.xiaohongshu.com, ChinaAppsIP
 #host, api.xiaohongshu.com, ChinaAppsIP
 host, as.xiaohongshu.com, ChinaAppsIP
 host, vapi.xiaohongshu.com, ChinaAppsIP
