@@ -1,21 +1,18 @@
 # 1. 修正语法后的核心交互、风控与精准 API（全部用 host 确保 QuanX 正确解析）
-#这两条必须要有
 host, geo.xiaohongshu.com, ChinaAppsIP
 host-suffix, fengkongcloud.com, ChinaAppsIP
-
 host, edith.xiaohongshu.com, ChinaAppsIP
 host, edith-seb.xiaohongshu.com, ChinaAppsIP
 host, api.xiaohongshu.com, ChinaAppsIP
 host, as.xiaohongshu.com, ChinaAppsIP
 host, vapi.xiaohongshu.com, ChinaAppsIP
-
-#host, spider-tracker.xiaohongshu.com, ChinaAppsIP
-#host, crash.xiaohongshu.com, ChinaAppsIP
-#host, apppush-nj.xiaohongshu.com, ChinaAppsIP
-#host, ing.xiaohongshu.com, ChinaAppsIP
-#host, t2.xiaohongshu.com, ChinaAppsIP
-#host, gslb.xiaohongshu.com, ChinaAppsIP
-#host-keyword, ark.xiaohongshu, ChinaAppsIP
+host, spider-tracker.xiaohongshu.com, ChinaAppsIP
+host, crash.xiaohongshu.com, ChinaAppsIP
+host, apppush-nj.xiaohongshu.com, ChinaAppsIP
+host, ing.xiaohongshu.com, ChinaAppsIP
+host, t2.xiaohongshu.com, ChinaAppsIP
+host, gslb.xiaohongshu.com, ChinaAppsIP
+host-keyword, ark.xiaohongshu, ChinaAppsIP
 
 
 # 2. 终极局部 FINAL 网兜：只要包含关键词或后缀，无条件送去美国
