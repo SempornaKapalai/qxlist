@@ -17,5 +17,5 @@ host-suffix, fengkongcloud.com, ChinaAppsIP
 
 # 2. 终极局部 FINAL 网兜：只要包含关键词或后缀，无条件送去美国
 
-host-keyword, xiaohongshu, ChinaAppsIP
-host-suffix, xiaohongshu.com, ChinaAppsIP
+#host-keyword, xiaohongshu, ChinaAppsIP
+#host-suffix, xiaohongshu.com, ChinaAppsIP
