@@ -7,7 +7,7 @@ host, edith.xiaohongshu.com, ChinaAppsIP
 #host, edith-seb.xiaohongshu.com, ChinaAppsIP
 #host, api.xiaohongshu.com, ChinaAppsIP
 host, as.xiaohongshu.com, ChinaAppsIP
-#host, vapi.xiaohongshu.com, ChinaAppsIP
+host, vapi.xiaohongshu.com, ChinaAppsIP
 
 #host, spider-tracker.xiaohongshu.com, ChinaAppsIP
 #host, crash.xiaohongshu.com, ChinaAppsIP
