@@ -9,7 +9,7 @@ host, vapi.xiaohongshu.com, ChinaAppsIP
 host, spider-tracker.xiaohongshu.com, ChinaAppsIP
 host, crash.xiaohongshu.com, ChinaAppsIP
 host, apppush-nj.xiaohongshu.com, ChinaAppsIP
-#host, ing.xiaohongshu.com, ChinaAppsIP
+host, ing.xiaohongshu.com, ChinaAppsIP
 #host, t2.xiaohongshu.com, ChinaAppsIP
 #host-suffix, fengkongcloud.com, ChinaAppsIP
 #host, geo.xiaohongshu.com, ChinaAppsIP
