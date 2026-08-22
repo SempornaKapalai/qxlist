@@ -1,31 +1,38 @@
 # ==========================================================
 # Ads-Rule 3.0 - 精准分流去广告补丁 (零误伤提速版)
 # ==========================================================
-# 屏蔽 AppleOS 更新  https://raw.githubusercontent.com/BlueGrave/Surge/master/Ruleset/AppleOS_Update.list
-# 屏蔽企业证书校验
+[filter_local]
+# ============================================================
+# Project: PureNexus - Local Filter Ruleset
+# Description: Apple 系统更新屏蔽 + 大厂 PCDN 上传抑制
+# Updated: 2026-08-21
+# ============================================================
+
+# ======= 1. Apple 系统更新与证书校验屏蔽 ======= #
+# 屏蔽企业证书校验（注意：可能导致某些签名应用打不开或 Mac App 启动卡顿）
 host-suffix, ocsp-lb.apple.com.akadns.net, reject
 host-suffix, ocsp.apple.com, reject
 host-suffix, ocsp.g.aaplimg.com, reject
 
-# iOS/iPadOS/macOS 更新
+# iOS / iPadOS / macOS 系统更新推送
 host, ns.itunes.apple.com, reject
+host, ipsw.me, reject
+host, gg.apple.com, reject
+host, updates.cdn-apple.com, reject
+host, updates-http.cdn-apple.com, reject
+host, xp.apple.com, reject
 host-suffix, appldnld-lb.apple.com.akadns.net, reject
 host-suffix, appldnld.apple.com, reject
 host-suffix, appldnld.apple.com.akadns.net, reject
 host-suffix, appldnld.g.aaplimg.com, reject
-host, ipsw.me, reject
-host, gg.apple.com, reject
 host-suffix, gdmf.apple.com, reject
 host-suffix, gdmf.apple.com.akadns.net, reject
 host-suffix, mesu-cdn.apple.com.akadns.net, reject
 host-suffix, mesu-cdn.origin-apple.com.akadns.net, reject
 host-suffix, mesu.apple.com, reject
 host-suffix, mesu.g.aaplimg.com, reject
-host, updates.cdn-apple.com, reject
-host, updates-http.cdn-apple.com, reject
-host, xp.apple.com, reject
 
-# macOS 专属更新与恢复
+# macOS 专属更新与系统恢复（注意：需要 Mac 恢复系统或更新时请先关闭）
 host, configuration.apple.com, reject
 host, gnf-mdn.apple.com, reject
 host, gnf-mr.apple.com, reject
@@ -40,93 +47,55 @@ host, swscan.apple.com, reject
 host, oscdn.apple.com, reject
 host, osrecovery.apple.com, reject
 
-# ======= 纯粹广告联盟与买量 SDK (全球通用) =======
-HOST, ad.yicai.com, REJECT
-HOST, ad.zijieapi.com, REJECT
-HOST, init.supersonicads.com, REJECT
-HOST, open.e.kuaishou.com, REJECT
-HOST, open.kuaishou.com, REJECT
-HOST, pagead2.googlesyndication-cn.com, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
-HOST, ws.tapjoyads.com, REJECT
-HOST, www.googleadservices.com, REJECT
-HOST-SUFFIX, ads.linkedin.com, REJECT
-HOST-SUFFIX, ads.vungle.com, REJECT
-HOST-SUFFIX, adservice.google.com, REJECT
-HOST-SUFFIX, applovin.com, REJECT
-HOST-SUFFIX, applvn.com, REJECT
-HOST-SUFFIX, appsflyer.com, REJECT
-HOST-SUFFIX, appsflyersdk.com, REJECT
-HOST-SUFFIX, kuaishouzt.com, REJECT
-HOST-SUFFIX, miaozhen.com, REJECT
-HOST-SUFFIX, unityads.unity3d.com, REJECT
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-HOST-KEYWORD, ads.g.doubleclick, REJECT
-HOST-KEYWORD, asiad.byteactivity, REJECT
-HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
-HOST-KEYWORD, pangolin.snssdk.com, REJECT
-HOST-KEYWORD, pglstatp-toutiao, REJECT
+# ======= 2. 大厂 PCDN 综合拦截 (腾讯/阿里/爱奇艺/B站/字节) ======= #
+# 腾讯系 (腾讯视频/微信视频号/QQ音乐)
+host-keyword, p2pwx, reject
+host-keyword, p2p.qq.com, reject
+host-keyword, pcdn.qq.com, reject
+host-suffix, pcdnwx.teg.tencent-cloud.net, reject
+host-suffix, vodplayer.wxamedia.com, reject
+host, apd-pcdnwxlogin.teg.tencent-cloud.net, reject
+host, apd-pcdnwxnat.teg.tencent-cloud.net, reject
+host, apd-pcdnwxstat.teg.tencent-cloud.net, reject
 
-# ======= 纯粹第三方隐私与埋点 (不碰大厂底层) =======
-HOST-KEYWORD, bayescom, REJECT
-HOST-SUFFIX, bayescom.com, REJECT
-HOST-SUFFIX, bayescom.cn, REJECT
-HOST-SUFFIX, umeng.com, REJECT
-HOST-SUFFIX, umengcloud.com, REJECT
-HOST-SUFFIX, ulogs.umeng.com, REJECT
-HOST-SUFFIX, log.umsns.com, REJECT
-HOST-SUFFIX, log.mmstat.com, REJECT
-HOST-SUFFIX, otheve.beacon.qq.com, REJECT
-HOST-SUFFIX, hm.baidu.com, REJECT
-HOST-SUFFIX, hlb.baidu.com, REJECT
+# 阿里系 & 优酷 (Youku)
+host-keyword, p2p.youku.com, reject
+host-keyword, pcdn.youku.com, reject
+host-suffix, p2p.alicloud.com, reject
+host-suffix, pcdn.aliyun.com, reject
 
-# ======= 大厂视频流媒体 P2P 上传节点优化 (PCDN) =======
-DOMAIN,1500020991.vodplayer.wxamedia.com, REJECT
-DOMAIN,1500022744.vodplayer.wxamedia.com, REJECT
-DOMAIN,1500026601.vodplayer.wxamedia.com, REJECT
-DOMAIN,ali-p2p-v2.pull.yximgs.com, REJECT
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
-DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net, REJECT
-DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net, REJECT
-DOMAIN,dyp2p-ali.douyucdn.cn, REJECT
-DOMAIN,dyp2p-hw.douyucdn.cn, REJECT
-DOMAIN-KEYWORD,p2p-pcdn,REJECT
-DOMAIN-SUFFIX,p2p.huoshan.com,REJECT
+# 爱奇艺 (iQIYI)
+host-keyword, p2p.iqiyi.com, reject
+host-keyword, pcdn.iqiyi.com, reject
+host-suffix, p2p.qiyi.com, reject
+host-suffix, pcdn.qiyi.com, reject
 
-# ======= 字节跳动 (ByteDance / 穿山甲巨量引擎) ======= 
-DOMAIN,abtest-ch.snssdk.com, REJECT
-DOMAIN,ad.toutiao.com, REJECT
-DOMAIN,ads3-normal-hl.zijieapi.com, REJECT
-DOMAIN,ads3-normal-lf.zijieapi.com, REJECT
-DOMAIN,ads3-normal-lq.zijieapi.com, REJECT
-DOMAIN,ads3-normal.zijieapi.com, REJECT
-DOMAIN,ads5-normal-hl.zijieapi.com, REJECT
-DOMAIN,ads5-normal-lf.zijieapi.com, REJECT
-DOMAIN,ads5-normal-lq.zijieapi.com, REJECT
-DOMAIN,ads5-normal.zijieapi.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao1.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao2.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao3.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao4.com, REJECT
-DOMAIN,api-access.pangolin-sdk-toutiao5.com, REJECT
-DOMAIN,api5-normal-quic-lf.ixigua.com, REJECT
-DOMAIN,csjplatform.com, REJECT
+# 哔哩哔哩 (Bilibili)
+host-keyword, p2p.bilibili.com, reject
+host-keyword, pcdn.bilibili.com, reject
+host-suffix, mcdn.bilivideo.cn, reject
+host-suffix, p2p.bilivideo.com, reject
+host-suffix, szbdyd.com, reject
+
+# 字节系 (抖音/火山/头条/西瓜)
+host-keyword, p2p-pcdn, reject
+host-suffix, p2p.huoshan.com, reject
+host-suffix, p2p.douyin.com, reject
+host-suffix, pcdn.bytedance.com, reject
 
 # ======= 百度 (Baidu / 百青藤联盟) ======
-DOMAIN,cbjs.baidu.com, REJECT
-DOMAIN,cpro.baidustatic.com, REJECT
-DOMAIN,eclick.baidu.com, REJECT
+#DOMAIN,cbjs.baidu.com, REJECT
+#DOMAIN,cpro.baidustatic.com, REJECT
+#DOMAIN,eclick.baidu.com, REJECT
 
 # ======= 京东 (JD) ======
-DOMAIN,addata.jd.com, REJECT
-DOMAIN,ccc-x.jd.com, REJECT
-DOMAIN,dsp-x.jd.com, REJECT
+#DOMAIN,addata.jd.com, REJECT
+#DOMAIN,ccc-x.jd.com, REJECT
+#DOMAIN,dsp-x.jd.com, REJECT
 
 # ======= 国际字节 (TikTok) ======
-DOMAIN,ads-api.tiktok.com, REJECT
-DOMAIN,ads-jp.tiktok.com, REJECT
-DOMAIN,ads-sg.tiktok.com, REJECT
-DOMAIN,ads.tiktok.com, REJECT
-DOMAIN,business-api.tiktok.com, REJECT
+#DOMAIN,ads-api.tiktok.com, REJECT
+#DOMAIN,ads-jp.tiktok.com, REJECT
+#DOMAIN,ads-sg.tiktok.com, REJECT
+#DOMAIN,ads.tiktok.com, REJECT
+#DOMAIN,business-api.tiktok.com, REJECT
