@@ -5,8 +5,6 @@ host-suffix, ocsp.apple.com, reject
 host-suffix, ocsp.g.aaplimg.com, reject
 
 # iOS / iPadOS / macOS 系统更新推送
-host, gdmf.apple.com, reject
-host, mesu.apple.com, reject
 host, ns.itunes.apple.com, reject
 host, ipsw.me, reject
 host, gg.apple.com, reject
